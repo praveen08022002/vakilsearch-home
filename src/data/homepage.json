@@ -1,0 +1,280 @@
+{
+  "Title": "India's Top Rated Legal services platform",
+  "subTitle": "Connecting you with experts to simplify your legal, tax & compliance.",
+  "rating": "4.4/5",
+  "reviews": "(13k+ Reviews)",
+  "ratingStarImg": "https://assets.vakilsearch.com/live-images/ic-rating-star.svg",
+  "userGrpImg": "https://assets.vakilsearch.com/live-images/ic-user-grp.png",
+  "suggessions": [
+    {
+      "name": "GST Registration"
+    },
+    {
+      "name": "Company Registration"
+    },
+    {
+      "name": "Accounting & Business Compliance"
+    },
+    {
+      "name": "e-FIR"
+    }
+  ],
+  "services": [
+    {
+      "title": "Register your company",
+      "desc": "Starting from ₹999/-",
+      "img": "https://assets.vakilsearch.com/live-images/home-page-assets/briefcase.svg",
+      "serviceList": [
+        {
+          "name": "Private Limited company"
+        },
+        {
+          "name": "Limited Liability Partnership"
+        },
+        {
+          "name": "One Person company"
+        },
+        {
+          "name": "Partnership Firm"
+        },
+        {
+          "name": "Start up India Registration"
+        }
+      ]
+    },
+    {
+      "title": "File GST",
+      "desc": "Starting from ₹999/-",
+      "img": "https://assets.vakilsearch.com/live-images/home-page-assets/files.svg",
+      "serviceList": [
+        {
+          "name": "GST Registration"
+        },
+        {
+          "name": "GST Filing"
+        },
+        {
+          "name": "GST Cancellation and Revocation"
+        },
+        {
+          "name": "Reply to GST Notice"
+        },
+        {
+          "name": "Indirect Tax"
+        }
+      ]
+    },
+    {
+      "title": "Protect your Intellectual Property",
+      "desc": "Starting from ₹999/-",
+      "img": "https://assets.vakilsearch.com/live-images/home-page-assets/Money%20_Locker.svg",
+      "serviceList": [
+        {
+          "name": "Trademark Registration"
+        },
+        {
+          "name": "Copyright Registration"
+        },
+        {
+          "name": "Patent Registration"
+        },
+        {
+          "name": "™ objection"
+        },
+        {
+          "name": "™ infringement"
+        }
+      ]
+    },
+    {
+      "title": "Maintain your Accounts",
+      "desc": "Starting from ₹999/-",
+      "img": "https://assets.vakilsearch.com/live-images/home-page-assets/graph.svg",
+      "serviceList": [
+        {
+          "name": "Accounting and Book-keeping"
+        },
+        {
+          "name": "TDS Return Filing"
+        },
+        {
+          "name": "Income Tax Notice"
+        },
+        {
+          "name": "Annual Compliance"
+        },
+        {
+          "name": "Secretarial Audit"
+        }
+      ]
+    },
+    {
+      "title": "Licenses",
+      "desc": "Starting from ₹999/-",
+      "img": "https://assets.vakilsearch.com/live-images/home-page-assets/briefcase.svg",
+      "serviceList": [
+        {
+          "name": "ISO Registration"
+        },
+        {
+          "name": "FSSAI Registration"
+        },
+        {
+          "name": "IEC Registration"
+        },
+        {
+          "name": "LIQUOR License Registration"
+        },
+        {
+          "name": "PASARA Registration"
+        }
+      ]
+    }
+  ],
+  "legalExperts": {
+    "content": "200+ Verified CA, CS, and Legal Experts Ready to Streamline Your Business Operations.",
+    "img": "https://assets.vakilsearch.com/live-images/ic-experts-man.svg",
+    "expertServices": [
+      {
+        "title": "Talk to Lawyer",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Blandit sollicitudin.",
+        "img": "https://assets.vakilsearch.com/live-images/ic-ttl.svg"
+      },
+      {
+        "title": "Talk to Company secretary",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Blandit sollicitudin.",
+        "img": "https://assets.vakilsearch.com/live-images/ic-at.svg"
+      },
+      {
+        "title": "Talk to Chartered accountant",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Blandit sollicitudin.",
+        "img": "https://assets.vakilsearch.com/live-images/ic-calc.svg"
+      },
+      {
+        "title": "Talk to Intellectual Property Lawyer",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Blandit sollicitudin.",
+        "img": "https://assets.vakilsearch.com/live-images/ic-court.svg"
+      }
+    ]
+  },
+  "ourCustomers": {
+    "title": "Our customers",
+    "customerList": [
+      {
+        "name": "Oyo",
+        "img": "https://assets.vakilsearch.com/live-images/ic-oyo.svg",
+        "webWidth": 78,
+        "webHeight": 27,
+        "mobileWidth": 50,
+        "mobileHeight": 17
+      },
+      {
+        "name": "Swiggy",
+        "img": "https://assets.vakilsearch.com/live-images/ic-small-swiggy.svg",
+        "webWidth": 91,
+        "webHeight": 27,
+        "mobileWidth": 58,
+        "mobileHeight": 17
+      },
+      {
+        "name": "Big basket",
+        "img": "https://assets.vakilsearch.com/live-images/ic-bigbasket.svg",
+        "webWidth": 124,
+        "webHeight": 27,
+        "mobileWidth": 79,
+        "mobileHeight": 17
+      },
+      {
+        "name": "Hdfc",
+        "img": "https://assets.vakilsearch.com/live-images/ic-hdfc.svg",
+        "webWidth": 162,
+        "webHeight": 27,
+        "mobileWidth": 103,
+        "mobileHeight": 17
+      },
+      {
+        "name": "Amazon",
+        "img": "https://assets.vakilsearch.com/live-images/ic-amazon.svg",
+        "webWidth": 90,
+        "webHeight": 27,
+        "mobileWidth": 57,
+        "mobileHeight": 17
+      }
+    ]
+  },
+  "ourProducts": {
+    "title": "Our free product suite trial",
+    "desc": "Increase efficiency and productivity with our scalable solutions",
+    "productList": [
+      {
+        "bgColor": "#F6F6F6",
+        "isBlueBg": false,
+        "isExplore": false,
+        "demoPic": "https://assets.vakilsearch.com/live-images/libra-demo-banner.png",
+        "webWidth": 473,
+        "webHeight": 223,
+        "mobileWidth": 298,
+        "mobileHeight": 130,
+        "tickIcon": "https://assets.vakilsearch.com/live-images/ic-blue-round-tick.svg",
+        "logo": "https://assets.vakilsearch.com/live-images/ic-libra-logo.svg",
+        "title": "A complete overview of your business",
+        "details": [
+          {
+            "content": "<b>Hearings:</b> Get instant court notifications, including case number and room details, with just one click."
+          },
+          {
+            "content": "<b>Judgements:</b> Access over 5 million judgments quickly by searching keywords, citations, parties, or judges."
+          },
+          {
+            "content": "<b>Display Board:</b> Stay updated on daily item numbers with our live display board."
+          },
+          {
+            "content": "<b>Case Alerts:</b> Stay ahead in your legal strategy with real-time case updates from India's largest case directory."
+          }
+        ]
+      },
+      {
+        "bgColor": "#022B50",
+        "isBlueBg": true,
+        "isExplore": true,
+        "demoPic": "https://assets.vakilsearch.com/live-images/zolvit-demo-banner.png",
+        "webWidth": 473,
+        "webHeight": 223,
+        "mobileWidth": 298,
+        "mobileHeight": 130,
+        "tickIcon": "https://assets.vakilsearch.com/live-images/ic-white-round-tick.svg",
+        "logo": "https://assets.vakilsearch.com/live-images/ic-zolvit-logo.svg",
+        "title": "A complete overview of your business",
+        "details": [
+          {
+            "content": "<b>Unified Dashboard:</b> Compliance to legal, all in one place."
+          },
+          {
+            "content": "Expert lawyer + CA + CS in your pocket!"
+          },
+          {
+            "content": "<b>Automatic Compliance Reminder:</b> Stay aligned with regulations."
+          },
+          {
+            "content": "<b>Efficient Compliance Tracking:</b> Automated monitoring and reminders for regulatory alignment."
+          }
+        ]
+      }
+    ]
+  },
+  "securitySection": {
+    "img": "https://assets.vakilsearch.com/live-images/ic-security-shield.svg",
+    "title": "Security, Confidentiality & Results",
+    "details": [
+      {
+        "content": "Operate with discretion and professionalism."
+      },
+      {
+        "content": "Ensure timely delivery with quick turnaround."
+      },
+      {
+        "content": "Deliver accurate and reliable results consistently."
+      }
+    ]
+  }
+}
