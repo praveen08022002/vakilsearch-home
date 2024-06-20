@@ -12,6 +12,7 @@ import VisionSection from "./VisionBanner/VisionSection";
 import NewsSection from "./NewsBanner/NewsSection";
 import BlogSection from "./Blogs/BlogSection";
 import NewTestimonial from "./StoryReviewComponent/NewTestimonial";
+import FeaturesSection from "./FeatuesComponent/FeaturesSection";
 const Homepage = () => {
   return (
     <div>
@@ -23,6 +24,7 @@ const Homepage = () => {
       <OurProductSection  data={data} />
       <SecurityResultSection data={data} />
       <NewTestimonial newTestimonial={data?.newTestimonial} />
+      <FeaturesSection data={data} />
       <StartBusinessSection data={data} />
       <VisionSection data={data?.visionSection} />
       <NewsSection data={data?.newsSection} />

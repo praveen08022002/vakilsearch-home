@@ -262,6 +262,54 @@
       }
     ]
   },
+  "featuresSection": {
+    "title": "Why Do Customers Love Us?",
+    "featuresSectionLogo": "https://assets.vakilsearch.com/live-images/zolvit-logo.svg",
+    "featuresbackdroplogo": "https://assets.vakilsearch.com/live-images/zolvit-logo-bw.svg",
+    "featureseclipse": "https://assets.vakilsearch.com/live-images/ic-feature-eclipse.svg",
+    "features": [
+      {
+        "image":"https://assets.vakilsearch.com/live-images/ic-feature-1.svg",
+        "title":"Easy-to-Use Dashboard",
+        "desc": "Streamlined navigation for service requests and tracking."
+      },
+      {
+        "image":"https://assets.vakilsearch.com/live-images/ic-feature-2.svg",
+        "title":"Affordable Professional Services",
+        "desc":"Proven legal and financial solutions with senior experts."
+      },
+      {
+        "image":"https://assets.vakilsearch.com/live-images/ic-feature-3.svg",
+        "title":"Easy-to-use dashboard",
+        "desc": "Streamlined navigation for service requests and tracking."
+      },
+      {
+        "image":"https://assets.vakilsearch.com/live-images/ic-feature-4.svg",
+        "title":"Quick Customer Support",
+        "desc":"Queries are responded within 24 hours**"
+      }
+    ],
+    "metricsimg1": "https://assets.vakilsearch.com/live-images/ic-metrics-1.svg",
+    "metricsimg2": "https://assets.vakilsearch.com/live-images/ic-metrics-2.svg",
+    "metrics": [
+      {
+        "title": "1000+",
+        "desc": "Companies"
+      },
+      {
+        "title": "400,000+",
+        "desc": "Business served"
+      },
+      {
+        "title": "300+",
+        "desc": "Professionals Onboarded"
+      },
+      {
+        "title": "500,000+",
+        "desc": "Customers"
+      }
+    ]
+  },
   "securitySection": {
     "img": "https://assets.vakilsearch.com/live-images/ic-security-shield.svg",
     "title": "Security, Confidentiality & Results",
