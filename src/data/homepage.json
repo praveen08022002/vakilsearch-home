@@ -26,19 +26,24 @@
       "img": "https://assets.vakilsearch.com/live-images/home-page-assets/briefcase.svg",
       "serviceList": [
         {
-          "name": "Private Limited company"
+          "name": "Private Limited company",
+          "link": "https://vakilsearch.com/online-company-registration"
         },
         {
-          "name": "Limited Liability Partnership"
+          "name": "Limited Liability Partnership",
+          "link": "https://vakilsearch.com/llp-registration-india"
         },
         {
-          "name": "One Person company"
+          "name": "One Person company",
+          "link": "https://vakilsearch.com/one-person-company-opc-india"
         },
         {
-          "name": "Partnership Firm"
+          "name": "Partnership Firm",
+          "link": "https://vakilsearch.com/partnership-firm-registration"
         },
         {
-          "name": "Start up India Registration"
+          "name": "Start up India Registration",
+          "link": " "
         }
       ]
     },
@@ -48,19 +53,24 @@
       "img": "https://assets.vakilsearch.com/live-images/home-page-assets/files.svg",
       "serviceList": [
         {
-          "name": "GST Registration"
+          "name": "GST Registration",
+          "link":"https://vakilsearch.com/online-gst-registration"
         },
         {
-          "name": "GST Filing"
+          "name": "GST Filing",
+          "link":"https://vakilsearch.com/gst-return-filing"
         },
         {
-          "name": "GST Cancellation and Revocation"
+          "name": "GST Cancellation and Revocation",
+          "link":" "
         },
         {
-          "name": "Reply to GST Notice"
+          "name": "Reply to GST Notice",
+          "link":" "
         },
         {
-          "name": "Indirect Tax"
+          "name": "Indirect Tax",
+          "link":" "
         }
       ]
     },
@@ -70,19 +80,24 @@
       "img": "https://assets.vakilsearch.com/live-images/home-page-assets/Money%20_Locker.svg",
       "serviceList": [
         {
-          "name": "Trademark Registration"
+          "name": "Trademark Registration",
+          "link":"https://vakilsearch.com/online-trademark-registration"
         },
         {
-          "name": "Copyright Registration"
+          "name": "Copyright Registration",
+          "link":"https://vakilsearch.com/copyright-protection"
         },
         {
-          "name": "Patent Registration"
+          "name": "Patent Registration",
+          "link":"https://vakilsearch.com/permanent-patent"
         },
         {
-          "name": "™ objection"
+          "name": "™ objection",
+          "link":" "
         },
         {
-          "name": "™ infringement"
+          "name": "™ infringement",
+          "link":" "
         }
       ]
     },
@@ -92,19 +107,24 @@
       "img": "https://assets.vakilsearch.com/live-images/home-page-assets/graph.svg",
       "serviceList": [
         {
-          "name": "Accounting and Book-keeping"
+          "name": "Accounting and Book-keeping",
+          "link":" "
         },
         {
-          "name": "TDS Return Filing"
+          "name": "TDS Return Filing",
+          "link":" "
         },
         {
-          "name": "Income Tax Notice"
+          "name": "Income Tax Notice",
+          "link":" "
         },
         {
-          "name": "Annual Compliance"
+          "name": "Annual Compliance",
+          "link":" "
         },
         {
-          "name": "Secretarial Audit"
+          "name": "Secretarial Audit",
+          "link":" "
         }
       ]
     },
@@ -114,19 +134,24 @@
       "img": "https://assets.vakilsearch.com/live-images/home-page-assets/briefcase.svg",
       "serviceList": [
         {
-          "name": "ISO Registration"
+          "name": "ISO Registration",
+          "link":" "
         },
         {
-          "name": "FSSAI Registration"
+          "name": "FSSAI Registration",
+          "link":" "
         },
         {
-          "name": "IEC Registration"
+          "name": "IEC Registration",
+          "link":" "
         },
         {
-          "name": "LIQUOR License Registration"
+          "name": "LIQUOR License Registration",
+          "link":" "
         },
         {
-          "name": "PASARA Registration"
+          "name": "PASARA Registration",
+          "link":" "
         }
       ]
     }
