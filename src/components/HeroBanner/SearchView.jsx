@@ -8,7 +8,7 @@ const SearchView = ({data}) => {
             </div>
             <div className="flex md:flex-row flex-wrap max-md:gap-[8px] items-center justify-center mt-6 space-x-3">
                 {data?.suggessions?.map((item, index) => (
-                    <p className="md:text-base py-[5px] px-[15px]  text-white text-[12px] md:text-[16px] md:px-6 md:py-3 text-center border border-[#5E6E7C] md:rounded rounded-[12px]  cursor-pointer hover:bg-[#5E6E7C]" key={index}>{item?.name}</p>
+                    <p className="md:text-center py-[4px] px-[15px]  text-white text-[12px] md:text-[16px] md:px-6 md:py-1 text-center border border-[#5E6E7C] md:rounded-[12px] rounded-[12px]  cursor-pointer hover:bg-[#5E6E7C]" key={index}>{item?.name}</p>
                 ))}
             </div>
         </div>

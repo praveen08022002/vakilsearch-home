@@ -5,7 +5,7 @@ const StoryReviewSection = ({ data }) => {
             <p className="text-[23px] weight-[400px] text-[#606162] leading-[26px] py-[16px]">{data?.reviewSection?.desc}</p>
             <div className="flex flex-row w-full items-center overflow-scroll">
                 {data?.reviewSection?.reviews?.map((item, index) => (
-                    <div className="flex flex-row">
+                    <div key={index} className="flex flex-row md:mt-[50px]">
                         <div className="flex flex-col bg-[#022B50] border-[1px] border-[#022B50] rounded-[20px] w-full md-w-[792px]">
                             <p className="text-[54px] text-[#ffffff] font-bold">“</p>
                             <p className="text-[20px] text-[#ffffff] weight-[500px] text-[italic]">{item.review}</p>
