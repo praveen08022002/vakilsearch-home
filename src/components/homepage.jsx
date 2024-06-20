@@ -7,6 +7,7 @@ import OurCustomerSection from "./OurCustomerComponent/OurCustomerSection";
 import OurProductSection from "./OurProductComponent/OurProductSection";
 import SecurityResultSection from "./SecurityResultComponent/SecurityResultSection";
 import StoryReviewSection from "./StoryReviewComponent/StoryReviewSection";
+import FeaturesSection from "./FeatuesComponent/FeaturesSection";
 const Homepage = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const Homepage = () => {
       <OurProductSection  data={data} />
       <SecurityResultSection data={data} />
       <StoryReviewSection data={data} />
+      <FeaturesSection data={data} />
       </div>
     </div>
   );
