@@ -7,6 +7,11 @@ import OurCustomerSection from "./OurCustomerComponent/OurCustomerSection";
 import OurProductSection from "./OurProductComponent/OurProductSection";
 import SecurityResultSection from "./SecurityResultComponent/SecurityResultSection";
 import StoryReviewSection from "./StoryReviewComponent/StoryReviewSection";
+import StartBusinessSection from "./StartBusinessBanner/StartBusinessSection";
+import VisionSection from "./VisionBanner/VisionSection";
+import NewsSection from "./NewsBanner/NewsSection";
+import BlogSection from "./Blogs/BlogSection";
+import NewTestimonial from "./StoryReviewComponent/NewTestimonial";
 const Homepage = () => {
   return (
     <div>
@@ -17,7 +22,11 @@ const Homepage = () => {
       <OurCustomerSection data={data} />
       <OurProductSection  data={data} />
       <SecurityResultSection data={data} />
-      <StoryReviewSection data={data} />
+      <NewTestimonial newTestimonial={data?.newTestimonial} />
+      <StartBusinessSection data={data} />
+      <VisionSection data={data?.visionSection} />
+      <NewsSection data={data?.newsSection} />
+      <BlogSection data={data?.blogSection} />
       </div>
     </div>
   );
