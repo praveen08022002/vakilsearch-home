@@ -6,16 +6,18 @@ import LegalExpertSection from "./LegalExpertComponent/LegalExpertSection";
 import OurCustomerSection from "./OurCustomerComponent/OurCustomerSection";
 import OurProductSection from "./OurProductComponent/OurProductSection";
 import SecurityResultSection from "./SecurityResultComponent/SecurityResultSection";
+import StoryReviewSection from "./StoryReviewComponent/StoryReviewSection";
 const Homepage = () => {
   return (
     <div>
       <Header type="zolvit" />
       <HeroBannerSection data={data} />
-      <div className="mt-[380px]">
+      <div className="flex flex-col mt-[380px] md:gap-[40px]">
       <LegalExpertSection data={data} />
       <OurCustomerSection data={data} />
       <OurProductSection  data={data} />
       <SecurityResultSection data={data} />
+      <StoryReviewSection data={data} />
       </div>
     </div>
   );

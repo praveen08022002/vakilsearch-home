@@ -276,5 +276,39 @@
         "content": "Deliver accurate and reliable results consistently."
       }
     ]
+  },
+  "reviewSection": {
+    "title": "Success stories & Reviews",
+    "desc": "Access to all your service in both web and mobile",
+    "reviews": [{
+        "name": "Vaishaak",
+        "role": "Founder, Astracode",
+        "review": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!",
+        "serviceName": "GST Filing"
+    },
+    {
+        "name": "Vaishaak",
+        "role": "Founder, Astracode",
+        "review": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!",
+        "serviceName": "Trademark Registration"
+    },
+    {
+        "name": "Vaishaak",
+        "role": "Founder, Astracode",
+        "review": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!",
+        "serviceName": "Copyright Registration"
+    },
+    {
+        "name": "Vaishaak",
+        "role": "Founder, Astracode",
+        "review": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!",
+        "serviceName": "e-FIR"
+    },
+    {
+        "name": "Vaishaak",
+        "role": "Founder, Astracode",
+        "review": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!",
+        "serviceName": "GST Registration"
+    }]
   }
 }
