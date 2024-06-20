@@ -13,7 +13,7 @@ const FeaturesRightFold = (props) => {
         {features.map((item, index) => {
           return (
             <div key={index} className="flex flex-row gap-x-4 md:gap-x-6 relative">
-              <div className="flex items-center">
+              <div className="flex md:items-center">
                 <Image
                   src={item?.image}
                   alt="feature_image"
