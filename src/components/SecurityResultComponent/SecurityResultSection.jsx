@@ -8,23 +8,26 @@ const SecurityResultSection = ({ data }) => {
           {data?.securitySection?.title}
         </p>
         <div className="flex absolute left-[-70px] top-[10px] items-center justify-center">
-            <Image src={data?.securitySection?.img} width={151} height={157} alt={data?.securitySection?.title} />
+          <Image
+            src={data?.securitySection?.img}
+            width={151}
+            height={157}
+            alt={data?.securitySection?.title}
+          />
         </div>
         <div className="flex flex-row gap-[px]">
-        {data?.securitySection?.details?.map((item, index) => (
-          <div className="flex flex-row gap-[10px] md:w-[300px] items-start">
-            <Image
-              src={
-                "https://assets.vakilsearch.com/live-images/ic-yellow-round-tick.svg"
-              }
-              width={26}
-              height={26}
-              alt={item?.title}
-            />
-            <p>{item?.content}</p>
-          </div>
-        ))}
-         </div>
+          {data?.securitySection?.details?.map((item, index) => (
+            <div key={index} className="flex flex-row gap-[10px] md:w-[300px] items-start">
+              <Image
+                src="https://assets.vakilsearch.com/live-images/ic-yellow-round-tick.svg"
+                width={26}
+                height={26}
+                alt={item?.title}
+              />
+              <p>{item?.content}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

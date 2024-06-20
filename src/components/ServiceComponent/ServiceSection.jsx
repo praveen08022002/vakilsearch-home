@@ -23,7 +23,7 @@ const ServiceSection = ({ data }) => {
           />
           </div>
           {item?.serviceList?.map((list, index) => (
-            <div className="mt-[12px] flex flex-row cursor-pointer items-center justify-between">
+            <div key={index} className="mt-[12px] flex flex-row cursor-pointer items-center justify-between">
               <p
                 key={index}
                 className="text-[11px] text-[#2E2E2E] text-left font-normal py-[12px] leading-[18px] weight-[400]"
