@@ -1,0 +1,201 @@
+{
+    "reviews": [
+        {
+          "stats": "4.3/5",
+          "img": "https://assets.vakilsearch.com/live-images/home-page-assets/google-logo.svg",
+          "alt": "Google",
+          "height": 31,
+          "width": 96
+        },
+        {
+          "stats": "4.3/5",
+          "img": "https://assets.vakilsearch.com/live-images/home-page-assets/trustpilot.svg",
+          "alt": "TrustPilot",
+          "height": 27,
+          "width": 112
+        },
+        {
+          "stats": "4.3/5",
+          "img": "https://assets.vakilsearch.com/live-images/home-page-assets/mouthshut.svg",
+          "alt": "MouthShut",
+          "width": 151,
+          "height": 49
+        }
+      ],
+      "aboutUs": [
+        {
+          "img": "https://assets.vakilsearch.com/live-images/home-page-assets/Invite.svg",
+          "alt": "Add-Cutomer",
+          "bgColor": "bg-gradient-customer-view",
+          "width": 100,
+          "height": 100,
+          "mobileWidth": 50,
+          "mobileHeight": 50,
+          "title": "5,00,000+",
+          "description": "Customers"
+        },
+        {
+          "img": "https://assets.vakilsearch.com/live-images/home-page-assets/ic-rocket.svg",
+          "alt": "Onboard Customer",
+          "bgColor": "bg-gradient-rocket-view",
+          "width": 100,
+          "height": 100,
+          "mobileWidth": 50,
+          "mobileHeight": 50,
+          "title": "300+",
+          "description": "Professionals Onboarded"
+        },
+        {
+          "img": "https://assets.vakilsearch.com/live-images/home-page-assets/perspective.svg",
+          "alt": "Business Served",
+          "bgColor": "bg-gradient-business-served",
+          "width": 100,
+          "height": 100,
+          "mobileWidth": 50,
+          "mobileHeight": 50,
+          "title": "50,000+",
+          "description": "Business Served"
+        },
+        {
+          "img": "https://assets.vakilsearch.com/live-images/home-page-assets/Briefcase_blue.svg",
+          "alt": "Companies Briefcase",
+          "bgColor": "bg-gradient-customer-companies",
+          "width": 100,
+          "height": 100,
+          "mobileWidth": 50,
+          "mobileHeight": 50,
+          "title": "1000+",
+          "description": "Companies"
+        }
+      ],
+      "linksPart": [
+        {
+          "name": "START A BUSINESS",
+          "items": [
+            {
+              "text": "Private Limited Company",
+              "href": "https://vakilsearch.com/online-company-registration"
+            },
+            {
+              "text": "Limited Liability Partnership",
+              "href": "https://vakilsearch.com/llp-registration-india"
+            },
+            {
+              "text": "One Person Company",
+              "href": "https://vakilsearch.com/one-person-company-opc-in-india"
+            },
+            {
+              "text": "Partnership Firm",
+              "href": "https://vakilsearch.com/partnership-firm-deed"
+            },
+            {
+              "text": "Proprietorship Firm",
+              "href": "https://vakilsearch.com/sole-proprietorship-registration-india"
+            }
+          ]
+        },
+        {
+          "name": "TRADEMARK & COPYRIGHT",
+          "items": [
+            {
+              "text": "Trademark Registration",
+              "href": "https://vakilsearch.com/online-trademark-registration"
+            },
+            {
+              "text": "Trademark Objection",
+              "href": "https://vakilsearch.com/trademark-objection"
+            },
+            {
+              "text": "Trademark Assignment",
+              "href": "https://vakilsearch.com/trademark-assign"
+            },
+            {
+              "text": "Trademark Renewal",
+              "href": "https://vakilsearch.com/trademark-renewal"
+            },
+            {
+              "text": "Copyright Registration",
+              "href": "https://vakilsearch.com/copyright-protection"
+            }
+          ]
+        },
+        {
+          "name": "GOVT & TAX REGISTRATION",
+          "items": [
+            {
+              "text": "GST Registration",
+              "href": "https://vakilsearch.com/online-gst-registration"
+            },
+            {
+              "text": "TDS Return",
+              "href": "https://vakilsearch.com/online-tds-return"
+            },
+            {
+              "text": "Importer Exporter Code",
+              "href": "https://vakilsearch.com/import-export-code"
+            },
+            {
+              "text": "Professional Tax Registration",
+              "href": "https://vakilsearch.com/professional-tax-registration"
+            },
+            {
+              "text": "Shops & Establishments Registration",
+              "href": "https://vakilsearch.com/shop-and-establishment-license"
+            }
+          ]
+        },
+        {
+          "name": "LEGAL DOCUMENTATION",
+          "items": [
+            {
+              "text": "Non-Disclosure Agreement",
+              "href": "https://vakilsearch.com/nondisclosure-agreement-nda"
+            },
+            {
+              "text": "Founders Agreement",
+              "href": "https://vakilsearch.com/founders-agreement"
+            },
+            { "text": "Term Sheet", "href": "https://vakilsearch.com/term-sheet" },
+            {
+              "text": "Shareholders Agreement",
+              "href": "https://vakilsearch.com/shareholders-agreement"
+            },
+            {
+              "text": "Share Purchase Agreement",
+              "href": "https://vakilsearch.com/share-purchase-agreement"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "text": "PF Calculator",
+          "href": "https://vakilsearch.com/epf-calculator"
+        },
+        {
+          "text": "GST Calculator",
+          "href": "https://vakilsearch.com/gst-calculator"
+        },
+        {
+          "text": "PPF Calculator",
+          "href": "https://vakilsearch.com/ppf-calculator"
+        },
+        {
+          "text": "SIP Calculator",
+          "href": "https://vakilsearch.com/sip-calculator"
+        },
+        {
+          "text": "TDS Calculator",
+          "href": "https://vakilsearch.com/tds-calculator"
+        },
+        {
+          "text": "HRA Calculator",
+          "href": "https://vakilsearch.com/hra-calculator"
+        },
+        {
+          "text": "Gratuity Calculator",
+          "href": "https://vakilsearch.com/gratuity-calculator"
+        },
+        { "text": "HSN Code", "href": "https://vakilsearch.com/hsn-code" }
+      ]
+}

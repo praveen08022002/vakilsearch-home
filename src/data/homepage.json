@@ -23,7 +23,7 @@
     {
       "title": "Register your company",
       "desc": "Starting from ₹999/-",
-      "img": "https://assets.vakilsearch.com/live-images/home-page-assets/briefcase.svg",
+      "img": "https://assets.vakilsearch.com/live-images/ic-brief-case.svg",
       "serviceList": [
         {
           "name": "Private Limited company",
@@ -50,7 +50,7 @@
     {
       "title": "File GST",
       "desc": "Starting from ₹999/-",
-      "img": "https://assets.vakilsearch.com/live-images/home-page-assets/files.svg",
+      "img": "https://assets.vakilsearch.com/live-images/ic-books.svg",
       "serviceList": [
         {
           "name": "GST Registration",
@@ -77,7 +77,7 @@
     {
       "title": "Protect your Intellectual Property",
       "desc": "Starting from ₹999/-",
-      "img": "https://assets.vakilsearch.com/live-images/home-page-assets/Money%20_Locker.svg",
+      "img": "https://assets.vakilsearch.com/live-images/ic-locker.svg",
       "serviceList": [
         {
           "name": "Trademark Registration",
@@ -104,7 +104,7 @@
     {
       "title": "Maintain your Accounts",
       "desc": "Starting from ₹999/-",
-      "img": "https://assets.vakilsearch.com/live-images/home-page-assets/graph.svg",
+      "img": "https://assets.vakilsearch.com/live-images/ic-graph.svg",
       "serviceList": [
         {
           "name": "Accounting and Book-keeping",
@@ -131,7 +131,7 @@
     {
       "title": "Licenses",
       "desc": "Starting from ₹999/-",
-      "img": "https://assets.vakilsearch.com/live-images/home-page-assets/briefcase.svg",
+      "img": "https://assets.vakilsearch.com/live-images/ic-license.svg",
       "serviceList": [
         {
           "name": "ISO Registration",
@@ -166,14 +166,14 @@
         "img": "https://assets.vakilsearch.com/live-images/ic-ttl.svg"
       },
       {
-        "title": "Talk to Company secretary",
-        "desc": "Lorem ipsum dolor sit amet consectetur. Blandit sollicitudin.",
-        "img": "https://assets.vakilsearch.com/live-images/ic-at.svg"
-      },
-      {
         "title": "Talk to Chartered accountant",
         "desc": "Lorem ipsum dolor sit amet consectetur. Blandit sollicitudin.",
         "img": "https://assets.vakilsearch.com/live-images/ic-calc.svg"
+      },
+      {
+        "title": "Talk to Company secretary",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Blandit sollicitudin.",
+        "img": "https://assets.vakilsearch.com/live-images/ic-at.svg"
       },
       {
         "title": "Talk to Intellectual Property Lawyer",
@@ -287,55 +287,6 @@
       }
     ]
   },
-  "securitySection": {
-    "img": "https://assets.vakilsearch.com/live-images/ic-security-shield.svg",
-    "title": "Security, Confidentiality & Results",
-    "details": [
-      {
-        "content": "Operate with discretion and professionalism."
-      },
-      {
-        "content": "Ensure timely delivery with quick turnaround."
-      },
-      {
-        "content": "Deliver accurate and reliable results consistently."
-      }
-    ]
-  },
-  "reviewSection": {
-    "title": "Success stories & Reviews",
-    "desc": "Access to all your service in both web and mobile",
-    "reviews": [{
-        "name": "Vaishaak",
-        "role": "Founder, Astracode",
-        "review": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!",
-        "serviceName": "GST Filing"
-    },
-    {
-        "name": "Vaishaak",
-        "role": "Founder, Astracode",
-        "review": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!",
-        "serviceName": "Trademark Registration"
-    },
-    {
-        "name": "Vaishaak",
-        "role": "Founder, Astracode",
-        "review": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!",
-        "serviceName": "Copyright Registration"
-    },
-    {
-        "name": "Vaishaak",
-        "role": "Founder, Astracode",
-        "review": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!",
-        "serviceName": "e-FIR"
-    },
-    {
-        "name": "Vaishaak",
-        "role": "Founder, Astracode",
-        "review": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!",
-        "serviceName": "GST Registration"
-    }]
-  },
   "featuresSection": {
     "title": "Why Do Customers Love Us?",
     "featuresSectionLogo": "https://assets.vakilsearch.com/live-images/zolvit-logo.svg",
@@ -381,6 +332,243 @@
       {
         "title": "500,000+",
         "desc": "Customers"
+      }
+    ]
+  },
+  "securitySection": {
+    "img": "https://assets.vakilsearch.com/live-images/ic-security-shield.svg",
+    "title": "Security, Confidentiality & Results",
+    "details": [
+      {
+        "content": "Operate with discretion and professionalism."
+      },
+      {
+        "content": "Ensure timely delivery with quick turnaround."
+      },
+      {
+        "content": "Deliver accurate and reliable results consistently."
+      }
+    ]
+  },
+  "newTestimonial": {
+    "title": "Trusted by Startups & Investors",
+    "desc": "Access to all your service in both web and mobile",
+    "list": [
+      {
+        "image": "https://assets.vakilsearch.com/our-customer.svg",
+        "content": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!",
+        "name": "Prajwal Raj",
+        "role": "Paramvah Constructions Private LimitedI",
+        "desc": "Idea to Investment in <b>4 Months</b>",
+        "investors": "Investor who attended the meet",
+        "service": "GST Filing",
+        "points": [
+          {
+            "heading": "Consultation",
+            "date": "31-01-2024",
+            "desc": "Preparation & Analysis"
+          },
+          {
+            "heading": "Consultation",
+            "date": "14-02-2024",
+            "desc": "Pitch Deck & Financial Modeling "
+          },
+          {
+            "heading": "Consultation",
+            "date": "04-06-2024",
+            "desc": "Pitched & Secured Funding "
+          }
+        ]
+      },
+      {
+        "image": "https://assets.vakilsearch.com/guru.svg",
+        "content": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!.",
+        "name": "Guru Prasad",
+        "role": "G21 Constructions ",
+        "desc": "From Idea to Investment in <b>4 Months</b>",
+        "investors": "Investor who attended the meet",
+        "service": "Trademark Registration",
+        "points": [
+          {
+            "heading": "Consultation",
+            "date": "10-02-2024",
+            "desc": "Preparation & Analysis"
+          },
+          {
+            "heading": "Consultation",
+            "date": "18-03-2024",
+            "desc": "Pitch Deck & Financial Modeling "
+          },
+          {
+            "heading": "Consultation",
+            "date": "24-04-2024",
+            "desc": "Pitched & Secured Funding"
+          }
+        ]
+      },
+      {
+        "image": "https://assets.vakilsearch.com/prathap.svg",
+        "content": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!",
+        "name": "Prathap P",
+        "role": "Mantra Cafe ",
+        "desc": "From Idea to Investment in <b>6 Months</b> ",
+        "investors": "Investor who attended the meet",
+        "service": "Copyright Registration",
+        "points": [
+          {
+            "heading": "Consultation",
+            "date": "21-01-2024",
+            "desc": "Preparation & Analysis"
+          },
+          {
+            "heading": "Consultation",
+            "date": "10-03-2024",
+            "desc": "Pitch Deck & Financial Modeling"
+          },
+          {
+            "heading": "Consultation",
+            "date": "04-06-2024",
+            "desc": "Pitched & Secured Funding "
+          }
+        ]
+      },
+      {
+        "image": "https://assets.vakilsearch.com/prathap.svg",
+        "content": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!",
+        "name": "Dhana",
+        "role": "Mantra Cafe ",
+        "desc": "From Idea to Investment in <b>6 Months</b> ",
+        "investors": "Investor who attended the meet",
+        "service": "e-FIR",
+        "points": [
+          {
+            "heading": "Consultation",
+            "date": "21-01-2024",
+            "desc": "Preparation & Analysis"
+          },
+          {
+            "heading": "Consultation",
+            "date": "10-03-2024",
+            "desc": "Pitch Deck & Financial Modeling"
+          },
+          {
+            "heading": "Consultation",
+            "date": "04-06-2024",
+            "desc": "Pitched & Secured Funding "
+          }
+        ]
+      },
+      {
+        "image": "https://assets.vakilsearch.com/prathap.svg",
+        "content": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!",
+        "name": "Praveen P",
+        "role": "Mantra Cafe ",
+        "desc": "From Idea to Investment in <b>6 Months</b> ",
+        "investors": "Investor who attended the meet",
+        "service": "GST Registration",
+        "points": [
+          {
+            "heading": "Consultation",
+            "date": "21-01-2024",
+            "desc": "Preparation & Analysis"
+          },
+          {
+            "heading": "Consultation",
+            "date": "10-03-2024",
+            "desc": "Pitch Deck & Financial Modeling"
+          },
+          {
+            "heading": "Consultation",
+            "date": "04-06-2024",
+            "desc": "Pitched & Secured Funding "
+          }
+        ]
+      }
+    ]
+  },
+  "startBusinessSection": {
+    "title": "Starting a business and confused where to begin?",
+    "desc": "At Vakilsearch, we take care of Accounting, Business, Compliance, and handle end-to-end solutions.",
+    "btnCta": "Get Started",
+    "img": "https://assets.vakilsearch.com/live-images/ic-women.svg"
+  },
+  "visionSection": {
+    "title": "Validated Vision, Exceptional Results",
+    "desc": "Pioneering the industry for over a decade, we equip businesses with affordable resources and expert guidance to meet their goals. Backed by visionary investors, we have the foundation to continuously innovate and deliver exactly what businesses need to succeed",
+    "companyList": [
+      {
+        "name": "Incorp",
+        "img": "https://assets.vakilsearch.com/live-images/ic-incorpp.svg",
+        "webWidth": 72,
+        "webHeight": 36,
+        "mobileWidth": 57,
+        "mobileHeight": 28
+      },
+      {
+        "name": "M2",
+        "img": "https://assets.vakilsearch.com/live-images/ic-m2.svg",
+        "webWidth": 70,
+        "webHeight": 36,
+        "mobileWidth": 56,
+        "mobileHeight": 28
+      },
+      {
+        "name": "Kalaari",
+        "img": "https://assets.vakilsearch.com/live-images/ic-kalaari-capital.svg",
+        "webWidth": 77,
+        "webHeight": 42,
+        "mobileWidth": 114,
+        "mobileHeight": 28
+      },
+      {
+        "name": "Maatrum",
+        "img": "https://assets.vakilsearch.com/live-images/ic-maatrum.svg",
+        "webWidth": 143,
+        "webHeight": 36,
+        "mobileWidth": 78,
+        "mobileHeight": 28
+      },
+      {
+        "name": "Chugh",
+        "img": "https://assets.vakilsearch.com/live-images/ic-chugh.svg",
+        "webWidth": 98,
+        "webHeight": 36,
+        "mobileWidth": 57,
+        "mobileHeight": 28
+      }
+    ]
+  },
+  "newsSection": {
+    "title": "Vakilsearch in news",
+    "webImg": "https://assets.vakilsearch.com/live-images/new-banner.png",
+    "mobileImg": "https://assets.vakilsearch.com/live-images/mob-news-banner.png",
+    "webWidth": 1263,
+    "webHeight": 215,
+    "mobileWidth": 373,
+    "mobileHeight": 312
+  },
+  "blogSection": {
+    "title": "Here are some related blog",
+    "blogList": [
+      {
+        "title": "Understanding Works of MOU",
+        "desc": "In most cases, a memorandum of understanding is not legally binding, so it cannot be enforced. ",
+        "underLineText": "Read more",
+        "img": "https://assets.vakilsearch.com/live-images/blog1.png",
+        "webWidth": 544,
+        "webHeight": 290,
+        "mobileWidth": 327,
+        "mobileHeight": 176
+      },
+      {
+        "title": "Understanding Works of MOU",
+        "desc": "In most cases, a memorandum of understanding is not legally binding, so it cannot be enforced. ",
+        "underLineText": "Read more",
+        "img": "https://assets.vakilsearch.com/live-images/blog2.png",
+        "webWidth": 544,
+        "webHeight": 290,
+        "mobileWidth": 327,
+        "mobileHeight": 176
       }
     ]
   }
