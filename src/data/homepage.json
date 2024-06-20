@@ -141,14 +141,14 @@
         "img": "https://assets.vakilsearch.com/live-images/ic-ttl.svg"
       },
       {
-        "title": "Talk to Company secretary",
-        "desc": "Lorem ipsum dolor sit amet consectetur. Blandit sollicitudin.",
-        "img": "https://assets.vakilsearch.com/live-images/ic-at.svg"
-      },
-      {
         "title": "Talk to Chartered accountant",
         "desc": "Lorem ipsum dolor sit amet consectetur. Blandit sollicitudin.",
         "img": "https://assets.vakilsearch.com/live-images/ic-calc.svg"
+      },
+      {
+        "title": "Talk to Company secretary",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Blandit sollicitudin.",
+        "img": "https://assets.vakilsearch.com/live-images/ic-at.svg"
       },
       {
         "title": "Talk to Intellectual Property Lawyer",

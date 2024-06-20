@@ -13,6 +13,7 @@ import NewsSection from "./NewsBanner/NewsSection";
 import BlogSection from "./Blogs/BlogSection";
 import NewTestimonial from "./StoryReviewComponent/NewTestimonial";
 import FeaturesSection from "./FeatuesComponent/FeaturesSection";
+import FooterWithLinks from "./FooterWithLinkComponent/FooterWithLinks";
 const Homepage = () => {
   return (
     <div>
@@ -29,6 +30,7 @@ const Homepage = () => {
       <VisionSection data={data?.visionSection} />
       <NewsSection data={data?.newsSection} />
       <BlogSection data={data?.blogSection} />
+      <FooterWithLinks />
       </div>
     </div>
   );

@@ -15,3 +15,15 @@
       justify-content: space-between;
     }
   }
+  .bg-gradient-customer-view {
+    background: linear-gradient(324.26deg, #0179FF 11.65%, #FFFFFF 153.67%);
+  }
+  .bg-gradient-rocket-view {
+    background: linear-gradient(324.26deg, #FDA706 11.65%, #FFFFFF 153.67%);
+  }
+  .bg-gradient-business-served {
+    background: linear-gradient(324.26deg, #00CE98 11.65%, #FFFFFF 153.67%);
+  }
+  .bg-gradient-customer-companies {
+    background: linear-gradient(324.26deg, #EB3762 11.65%, #FFFFFF 153.67%);
+  }

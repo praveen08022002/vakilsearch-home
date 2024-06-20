@@ -7,7 +7,7 @@ const HeroBannerSection = ({ data }) => {
     <div className="flex flex-col">
     <div className="flex flex-col bg-[#022B50] relative items-center md:pt-[70px] pt-[40px] h-[95vh] gap-[18px]">
       <RatingAndReview data={data} />
-      <div className="mb-[64px] flex flex-col items-center justify-center">
+      <div className="md:mb-[64px] mb-[32px] flex flex-col items-center justify-center">
         <p className="text-white md:text-[60px] text-[32px] font-bold md:leading-[72px] leading-[37px] max-md:text-center">
           India's <span className="text-[#FFC24F]">Top Rated </span>Legal
           services platform
@@ -18,7 +18,7 @@ const HeroBannerSection = ({ data }) => {
       </div>
       <SearchView data={data} />
       <Image
-        className="absolute left-0 bottom-0 max-md:hidden"
+        className="absolute left-0 bottom-0 md:w-[443px] md:h-[449px] w-[223px] h-[223px]"
         src={
           "https://assets.vakilsearch.com/live-images/ic-zolvit-logo-gray.png"
         }
@@ -27,7 +27,7 @@ const HeroBannerSection = ({ data }) => {
         alt="logo-banner"
       />
     </div>
-    <div className="flex absolute left-0 right-0 justify-center bottom-[-350px]">
+    <div className="flex flex-row absolute left-0 right-0 md:justify-center md:bottom-[-350px] bottom-[-420px]">
     <ServiceSection data={data} />
     </div>
     </div>
