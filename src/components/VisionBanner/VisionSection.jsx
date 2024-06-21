@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const VisionSection = ({ data }) => {
   return (
-    <div className="flex flex-col items-center justify-center w-full mx-auto md:gap-[48px] md:mt-[100px] mt-[70px] md:max-w-[1330px] max-w-[308px]">
-      <p className="md:text-[40px] text-[24px] text-center font-medium md:leading-[48px]">
+    <div className="flex flex-col items-center justify-center w-full mx-auto md:gap-[48px] gap-[24px] md:mt-[100px] md:max-w-[1330px] px-6 lg:px-0">
+      <p className="text-2xl md:text-[40px] font-bold text-center max-sm:max-w-[308px]">
         {data?.title}
       </p>
       {data?.desc && (
-          <p className="md:text-[24px] max-md:pt-[12px] text-[16px] text-center font-light md:leading-[30px] text-[#434A53] max-w-[1069px]">
+          <p className="text-base md:text-[24px] text-center font-light md:leading-[30px] text-[#434A53] max-w-[1069px]">
           {data?.desc}
         </p>
       )}

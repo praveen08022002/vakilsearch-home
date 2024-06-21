@@ -34,7 +34,7 @@ const OurProductSection = ({ data }) => {
               </p>
             </div>
             {item?.details?.map((detail, index) => (
-              <div className="flex flex-row py-[22px] items-start gap-2">
+              <div key={index} className="flex flex-row py-[22px] items-start gap-2">
                 <Image
                   src={item?.tickIcon}
                   width={24}
