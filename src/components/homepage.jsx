@@ -20,7 +20,7 @@ const Homepage = () => {
       <Header type="zolvit" />
       <HeroBannerSection data={data} />
       <div className="flex flex-col mt-[380px] md:gap-[40px] gap-[102px]">
-      {/* <LegalExpertSection data={data} />
+      <LegalExpertSection data={data} />
       <OurCustomerSection data={data} />
       <OurProductSection  data={data} />
       <SecurityResultSection data={data} />
