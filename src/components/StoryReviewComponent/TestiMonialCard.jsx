@@ -14,16 +14,16 @@ const TestiMonialCard = ({
   };
   return (
     <div
-      className="border-[#231F20] md:gap-[20px] relative max-md:border-[0.5px] max-md:pt-[72px] p-[14px]
+      className="border-[#231F20] md:gap-[20px] relative p-[14px]
      flex max-md:flex-col gap-[20px] rounded-[16px] "
     >
       <div
-        className="flex flex-col gap-[20px] bg-[#022B50] border-[#231F20] md:max-w-[792px] md:justify-between
+        className="flex flex-col gap-[20px] bg-[#022B50] border-[#231F20] md:max-w-[792px] max-w-[350px] md:justify-between
          md:rounded-[12px] md:p-[42px]
-       md:border-[0.5px]"
+       md:border-[0.5px] rounded p-[24px] border-[0.5px]"
       >
         <div className="relative">
-          <p className="italic md:text-[18px] text-[#ffffff] max-md:min-h-[240px] font-normal">
+          <p className="italic md:text-[18px] text-[#ffffff] font-normal max-md:rounded">
             {listItem?.content}
           </p>
           <Image
@@ -35,7 +35,7 @@ const TestiMonialCard = ({
           />
         </div>
       </div>
-      <div className="max-md:absolute top-[-57px] w-full max-w-[350px] flex flex-row rounded-[16px] border-[1px] bg-[#E6EAEE] items-center">
+      <div className=" w-full max-w-[350px] flex flex-row items-center md:bg-[#E6EAEE] md:border-[1px] md:rounded">
         <Image
           src={listItem?.image}
           alt="image"

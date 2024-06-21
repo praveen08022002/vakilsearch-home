@@ -24,7 +24,7 @@ const Homepage = () => {
       <OurCustomerSection data={data} />
       <OurProductSection  data={data} />
       <SecurityResultSection data={data} />
-      {/* <NewTestimonial newTestimonial={data?.newTestimonial} /> */}
+      <NewTestimonial newTestimonial={data?.newTestimonial} />
       <FeaturesSection data={data} />
       <StartBusinessSection data={data} />
       <VisionSection data={data?.visionSection} />
