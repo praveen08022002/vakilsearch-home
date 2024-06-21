@@ -10,7 +10,7 @@ const BackArrow = (props) => {
   return (
     <div
       onClick={onClick}
-      className="bg-[#D9D9D9] max-md:hidden w-fit hover:bg-[#56AFFF] p-[6px] h-fit cursor-pointer rounded-md"
+      className="bg-[#D9D9D9] max-md:hidden w-fit hover:bg-[#022B50] p-[6px] h-fit cursor-pointer rounded-md"
     >
       <Image
         src="https://assets.vakilsearch.com/white-arrow.svg"
@@ -27,7 +27,7 @@ const NextArrow = (props) => {
   return (
     <div
       onClick={onClick}
-      className="bg-[#D9D9D9] w-fit max-md:hidden hover:bg-[#56AFFF] p-[6px] h-fit cursor-pointer rounded-md"
+      className="bg-[#D9D9D9] w-fit max-md:hidden hover:bg-[#022B50] p-[6px] h-fit cursor-pointer rounded-md"
     >
       <Image
         src="https://assets.vakilsearch.com/white-arrow.svg"
@@ -69,20 +69,20 @@ const NewTestimonial = (props) => {
     prevArrow: <BackArrow />,
   };
   return (
-    <div className="flex flex-col md:max-w-[1300px] mx-auto justify-center md:mt-[100px]">
+    <div className="flex flex-col md:max-w-[1300px] max-w-full mx-auto justify-center md:mt-[100px] my-[70px]">
       <p className="text-[22px] font-semibold md:text-[42px] text-center">
         {newTestimonial?.title}
       </p>
       {newTestimonial?.desc && (
-          <p className="text-[24px] font-light md:text-[24px] text-center text-[#606162]">
+          <p className="text-[16px] w-full font-light md:text-[24px] text-center text-[#606162]">
           {newTestimonial?.desc}
         </p>
       )}
-      <div className="flex flex-col gap-[20px] md:mt-[50px]">
+      <div className="flex flex-col gap-[20px] md:mt-[50px] max-md:m-[16px]">
         <Slider style={{ display: "flex", alignItems: "center" }} {...settings}>
           {newTestimonial?.list?.map((listItem, listIndex) => {
             return (
-              <div className="max-md:pt-[72px]" key={listIndex}>
+              <div className="max-md:pt-[36px]" key={listIndex}>
                 <TestiMonialCard
                   listItem={listItem}
                   key={listIndex}
@@ -95,7 +95,7 @@ const NewTestimonial = (props) => {
             );
           })}
         </Slider>
-        <div className="flex gap-[4px] w-full md:mx-auto md:max-w-[1090px]">
+        <div className="flex gap-[4px] w-full md:mx-auto md:max-w-[1090px] max-md:overflow-auto">
           {Array.from({ length: length }, (_, index) => (
             <div
               key={index}
@@ -107,7 +107,7 @@ const NewTestimonial = (props) => {
                      : ""
                  }`}
             >
-                <p className={`text-[16px] weight-[700px] leading-[18px] py-[14px] ${activeIndex === index ? "text-[#2b3641]" : "text-[#8F9397]"}`}>{newTestimonial?.list[index].service}</p>
+                <p className={`text-[16px] weight-[700px] md:leading-[18px] py-[14px] ${activeIndex === index ? "text-[#2b3641]" : "text-[#8F9397]"}`}>{newTestimonial?.list[index].service}</p>
             </div>
           ))}
         </div>
