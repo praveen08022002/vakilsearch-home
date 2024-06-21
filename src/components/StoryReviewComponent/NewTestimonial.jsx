@@ -69,7 +69,7 @@ const NewTestimonial = (props) => {
     prevArrow: <BackArrow />,
   };
   return (
-    <div className="flex flex-col md:max-w-[1300px] max-w-full mx-auto justify-center md:mt-[100px] my-[70px]">
+    <div className="flex flex-col md:max-w-[1300px] max-w-full mx-auto justify-center md:mt-[100px]">
       <p className="text-[22px] font-semibold md:text-[42px] text-center">
         {newTestimonial?.title}
       </p>
