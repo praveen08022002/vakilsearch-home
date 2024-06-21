@@ -85,7 +85,7 @@ const AutoSuggest = (props) => {
   const [animation, setAnimation] = useState(0);
   const [searchText, setSearchText] = useState("");
   const inputToAnimate = useRef();
-  const [loader, setLoader] = useState(false);
+  const [loader, setLoader] = useState(true);
 
   const router = useRouter();
 
@@ -213,10 +213,10 @@ const AutoSuggest = (props) => {
           </div>
         )}
         {queryItems.length !== 0 && (
-          <ul className="absolute bg-white w-full top-[62px] rounded-b-3xl z-10 left-0 max-h-[240px] no-scrollbar overflow-scroll">
+          <ul className="absolute bg-white w-full top-[62px] rounded-b-3xl z-[99] left-0 max-h-[240px] no-scrollbar overflow-scroll">
             {queryItems.map((item, index) => (
               <li
-                className={cursor === index + 1 ? "selected" : ""}
+                className={`${cursor === index + 1 ? "selected" : ""} :hove `}
                 key={`query_${index}`}
                 onClick={() => {
                   props.trackEvent("click", "homesearch_click", {

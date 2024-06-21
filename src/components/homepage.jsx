@@ -19,7 +19,7 @@ const Homepage = (props) => {
     <div>
       <Header type="zolvit" />
       <HeroBannerSection data={data} />
-      <div className="flex flex-col mt-[380px] md:gap-[40px]">
+      <div className="flex flex-col mt-[380px] md:gap-[40px] gap-[70px]">
         <LegalExpertSection data={data} />
         <OurCustomerSection data={data} />
         <OurProductSection data={data} />
@@ -30,7 +30,6 @@ const Homepage = (props) => {
         <VisionSection data={data?.visionSection} />
         <NewsSection data={data?.newsSection} />
         {props?.blogSection && <BlogSection data={props?.blogSection} />}
-
         <FooterWithLinks />
       </div>
     </div>

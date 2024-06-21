@@ -26,19 +26,24 @@
       "img": "https://assets.vakilsearch.com/live-images/ic-brief-case.svg",
       "serviceList": [
         {
-          "name": "Private Limited company"
+          "name": "Private Limited company",
+          "link": "https://vakilsearch.com/online-company-registration"
         },
         {
-          "name": "Limited Liability Partnership"
+          "name": "Limited Liability Partnership",
+          "link": "https://vakilsearch.com/llp-registration-india"
         },
         {
-          "name": "One Person company"
+          "name": "One Person company",
+          "link": "https://vakilsearch.com/one-person-company-opc-india"
         },
         {
-          "name": "Partnership Firm"
+          "name": "Partnership Firm",
+          "link": "https://vakilsearch.com/partnership-firm-registration"
         },
         {
-          "name": "Start up India Registration"
+          "name": "Start up India Registration",
+          "link": "https://vakilsearch.com/startup-india-scheme"
         }
       ]
     },
@@ -48,19 +53,24 @@
       "img": "https://assets.vakilsearch.com/live-images/ic-books.svg",
       "serviceList": [
         {
-          "name": "GST Registration"
+          "name": "GST Registration",
+          "link":"https://vakilsearch.com/online-gst-registration"
         },
         {
-          "name": "GST Filing"
+          "name": "GST Filing",
+          "link":"https://vakilsearch.com/gst-return-filing"
         },
         {
-          "name": "GST Cancellation and Revocation"
+          "name": "GST Cancellation and Revocation",
+          "link":"https://vakilsearch.com/gst/cancellation-revocation"
         },
         {
-          "name": "Reply to GST Notice"
+          "name": "Reply to GST Notice",
+          "link":"https://vakilsearch.com/gst/notice"
         },
         {
-          "name": "Indirect Tax"
+          "name": "Indirect Tax",
+          "link":"https://vakilsearch.com/gst/indirect-tax"
         }
       ]
     },
@@ -70,19 +80,24 @@
       "img": "https://assets.vakilsearch.com/live-images/ic-locker.svg",
       "serviceList": [
         {
-          "name": "Trademark Registration"
+          "name": "Trademark Registration",
+          "link":"https://vakilsearch.com/online-trademark-registration"
         },
         {
-          "name": "Copyright Registration"
+          "name": "Copyright Registration",
+          "link":"https://vakilsearch.com/copyright-protection"
         },
         {
-          "name": "Patent Registration"
+          "name": "Patent Registration",
+          "link":"https://vakilsearch.com/permanent-patent"
         },
         {
-          "name": "™ objection"
+          "name": "™ objection",
+          "link":"https://vakilsearch.com/ipindia/trademark-objection"
         },
         {
-          "name": "™ infringement"
+          "name": "™ infringement",
+          "link":"https://vakilsearch.com/ipindia/trademark-infringement-india"
         }
       ]
     },
@@ -92,19 +107,24 @@
       "img": "https://assets.vakilsearch.com/live-images/ic-graph.svg",
       "serviceList": [
         {
-          "name": "Accounting and Book-keeping"
+          "name": "Accounting and Book-keeping",
+          "link":"https://vakilsearch.com/accounting-bookkeeping-services"
         },
         {
-          "name": "TDS Return Filing"
+          "name": "TDS Return Filing",
+          "link":"https://vakilsearch.com/online-tds-return-filing"
         },
         {
-          "name": "Income Tax Notice"
+          "name": "Income Tax Notice",
+          "link":"https://vakilsearch.com/income-tax-notice"
         },
         {
-          "name": "Annual Compliance"
+          "name": "Annual Compliance",
+          "link":"https://vakilsearch.com/annual-compliance"
         },
         {
-          "name": "Secretarial Audit"
+          "name": "Secretarial Audit",
+          "link":"https://vakilsearch.com/secretarial-audit"
         }
       ]
     },
@@ -114,19 +134,24 @@
       "img": "https://assets.vakilsearch.com/live-images/ic-license.svg",
       "serviceList": [
         {
-          "name": "ISO Registration"
+          "name": "ISO Registration",
+          "link":"https://vakilsearch.com/iso-certification"
         },
         {
-          "name": "FSSAI Registration"
+          "name": "FSSAI Registration",
+          "link":"https://vakilsearch.com/fssai-registration"
         },
         {
-          "name": "IEC Registration"
+          "name": "IEC Registration",
+          "link":"https://vakilsearch.com/import-export-code"
         },
         {
-          "name": "LIQUOR License Registration"
+          "name": "LIQUOR License Registration",
+          "link":"https://vakilsearch.com/liquor-license"
         },
         {
-          "name": "PASARA Registration"
+          "name": "PSARA Registration",
+          "link":"https://vakilsearch.com/psara-license-services"
         }
       ]
     }
@@ -137,22 +162,22 @@
     "expertServices": [
       {
         "title": "Talk to Lawyer",
-        "desc": "Lorem ipsum dolor sit amet consectetur. Blandit sollicitudin.",
+        "desc": "Provide legal advice, draft contracts, handle litigation, and offer legal representation.",
         "img": "https://assets.vakilsearch.com/live-images/ic-ttl.svg"
       },
       {
         "title": "Talk to Chartered accountant",
-        "desc": "Lorem ipsum dolor sit amet consectetur. Blandit sollicitudin.",
+        "desc": "Provide financial auditing, taxation advice, and financial planning services.",
         "img": "https://assets.vakilsearch.com/live-images/ic-calc.svg"
       },
       {
         "title": "Talk to Company secretary",
-        "desc": "Lorem ipsum dolor sit amet consectetur. Blandit sollicitudin.",
+        "desc": "Advisory on corporate governance, regulatory compliance, and secretarial services for businesses and enterprises.",
         "img": "https://assets.vakilsearch.com/live-images/ic-at.svg"
       },
       {
         "title": "Talk to Intellectual Property Lawyer",
-        "desc": "Lorem ipsum dolor sit amet consectetur. Blandit sollicitudin.",
+        "desc": "Assist with trademarks, copyrights, patents, and intellectual property rights enforcement and protection.",
         "img": "https://assets.vakilsearch.com/live-images/ic-court.svg"
       }
     ]
