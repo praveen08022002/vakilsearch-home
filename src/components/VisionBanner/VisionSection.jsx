@@ -11,7 +11,7 @@ const VisionSection = ({ data }) => {
           {data?.desc}
         </p>
       )}
-      <div className="w-full flex flex-row items-center justify-center md:gap-[150px]">
+      <div className="w-full flex md:flex-row flex-wrap items-center justify-center md:gap-[150px] gap-[33px] max-md:mt-[36px]">
         {data?.companyList?.map((item, index) => (
           <div key={index}>
             <Image

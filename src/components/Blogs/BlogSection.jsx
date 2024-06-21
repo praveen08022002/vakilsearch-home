@@ -8,7 +8,7 @@ const BlogSection = ({ data }) => {
       </p>
       <div className="w-full flex flex-col md:flex-row items-center justify-center md:gap-[150px] gap-[50px]">
         {data?.blogList?.map((item, index) => (
-          <div key={index} className="flex flex-col">
+          <div key={index} className="flex flex-col max-md:gap-[12px]">
             <Image
               src={item?.img}
               width={item?.webWidth}
