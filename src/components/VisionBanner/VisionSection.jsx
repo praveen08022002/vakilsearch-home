@@ -2,16 +2,16 @@ import Image from "next/image";
 
 const VisionSection = ({ data }) => {
   return (
-    <div className="flex flex-col items-center justify-center w-full mx-auto md:gap-[48px] md:mt-[100px] md:max-w-[1330px]">
-      <p className="text-[40px] text-center font-medium leading-[48px]">
+    <div className="flex flex-col items-center justify-center w-full mx-auto md:gap-[48px] md:mt-[100px] mt-[70px] md:max-w-[1330px] max-w-[308px]">
+      <p className="md:text-[40px] text-[24px] text-center font-medium md:leading-[48px]">
         {data?.title}
       </p>
       {data?.desc && (
-          <p className="text-[24px] text-center font-light leading-[30px] text-[#434A53] max-w-[1069px]">
+          <p className="md:text-[24px] max-md:pt-[12px] text-[16px] text-center font-light md:leading-[30px] text-[#434A53] max-w-[1069px]">
           {data?.desc}
         </p>
       )}
-      <div className="w-full flex flex-row items-center justify-center md:gap-[150px]">
+      <div className="w-full flex md:flex-row flex-wrap items-center justify-center md:gap-[150px] gap-[33px] max-md:mt-[36px]">
         {data?.companyList?.map((item, index) => (
           <div key={index}>
             <Image

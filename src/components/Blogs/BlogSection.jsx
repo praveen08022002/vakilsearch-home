@@ -2,20 +2,20 @@ import Image from "next/image";
 
 const BlogSection = ({ data }) => {
   return (
-    <div className="flex flex-col items-center justify-center w-full mx-auto md:gap-[48px] md:mt-[100px] md:max-w-[1330px]">
-      <p className="text-[40px] text-center font-medium leading-[48px]">
+    <div className="flex flex-col items-center justify-center w-full mx-auto md:gap-[48px] md:mt-[100px] my-[70px] md:max-w-[1330px] max-w-[327px]">
+      <p className="md:text-[40px] text-[24px] text-center font-medium leading-[48px]">
         {data?.title}
       </p>
-      <div className="w-full flex flex-row items-center justify-center md:gap-[150px]">
+      <div className="w-full flex md:flex-row flex-col items-center justify-center md:gap-[150px] gap-[34px] max-md:mt-[32px]">
         {data?.blogList?.map((item, index) => (
-          <div key={index} className="flex flex-col">
+          <div key={index} className="flex flex-col max-md:gap-[12px]">
             <Image
               src={item?.img}
               width={item?.webWidth}
               height={item?.webHeight}
               alt={"blogs icon"}
             />
-            <div className="flex flex-col md:mt-[50px] md:gap-[12px]">
+            <div className="flex flex-col md:mt-[50px] gap-[12px]">
             <p className="text-[30px] text-left font-medium leading-[35px]">
               {item?.title}
             </p>
