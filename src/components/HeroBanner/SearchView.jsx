@@ -184,7 +184,7 @@ const AutoSuggest = (props) => {
             ? "md:rounded-t-3xl rounded-t-[32px]"
             : "md:rounded-3xl rounded-[32px]"
         }  max-w-[343px] 
-        mx-auto flex flex-row justify-between relative py-[16px] px-[24px] border border-white bg-white 
+        mx-auto flex flex-row justify-between relative md:py-[16px] md:px-[24px] py-[12px] px-[12px] border border-white bg-white 
          `}
       >
         <input
