@@ -14,7 +14,7 @@ const TestiMonialCard = ({
   };
   return (
     <div
-      className="border-[#231F20] md:gap-[40px] relative max-md:border-[0.5px] max-md:pt-[72px] p-[14px]
+      className="border-[#231F20] md:gap-[20px] relative max-md:border-[0.5px] max-md:pt-[72px] p-[14px]
      flex max-md:flex-col gap-[20px] rounded-[16px] "
     >
       <div
@@ -35,7 +35,7 @@ const TestiMonialCard = ({
           />
         </div>
       </div>
-      <div className="max-md:absolute top-[-57px] w-full flex flex-row rounded border-[1px] md:min-w-[390px] bg-[#E6EAEE] items-center justify-center left-0">
+      <div className="max-md:absolute top-[-57px] w-full max-w-[350px] flex flex-row rounded-[16px] border-[1px] bg-[#E6EAEE] items-center">
         <Image
           src={listItem?.image}
           alt="image"
@@ -44,7 +44,7 @@ const TestiMonialCard = ({
           className="max-md:rounded-[100%] md:rounded-md md:w-[157px] md:h-[179px]"
         />
         <div className="flex flex-col text-[#231F20] px-[24px]">
-          <p className=" text-[16px] md:text-[18px] font-semibold">
+          <p className=" text-[16px] md:text-[18px] text-left font-semibold">
             {listItem?.name}
           </p>
           <p className="italic md:text-[14px] max-md:max-w-[130px] text-[12px] text-[#8F9397]">

@@ -67,11 +67,11 @@ const FooterWithLinks = () => {
               src="https://assets.vakilsearch.com/live-images/home-page-assets/zolvit_logo_gray.svg"
             />
             <div className="h-[200px] flex flex-row items-center justify-center gap-4">
-              <a href="https://www.facebook.com/vakilsearch" target="blank"><Image width={24} height={24} src="https://assets.vakilsearch.com/live-images/home-page-assets/facebook.svg" /></a>
-            <a href="https://www.instagram.com/vakilsearch_legal" target="blank"><Image width={24} height={24} src="https://assets.vakilsearch.com/live-images/home-page-assets/instagram.svg" /></a>
-            <a href="https://www.linkedin.com/company/vakilsearch-com" target="blank"><Image width={24} height={24} src="https://assets.vakilsearch.com/live-images/home-page-assets/linkedin.svg" /></a>
-            <a href="https://twitter.com/Letsvakilsearch" target="blank"><Image width={24} height={24} src="https://assets.vakilsearch.com/live-images/home-page-assets/twitter.svg" /></a>
-            <a href="https://www.youtube.com/c/vakilsearchonline" target="blank"><Image width={24} height={24} src="https://assets.vakilsearch.com/live-images/home-page-assets/youtube.svg" /></a>
+              <a href="https://www.facebook.com/vakilsearch" target="blank"><Image width={10} height={20} src="https://assets.vakilsearch.com/live-images/home-page-assets/facebook.svg" /></a>
+            <a href="https://www.instagram.com/vakilsearch_legal" target="blank"><Image width={20} height={20} src="https://assets.vakilsearch.com/live-images/home-page-assets/instagram.svg" /></a>
+            <a href="https://www.linkedin.com/company/vakilsearch-com" target="blank"><Image width={20} height={20} src="https://assets.vakilsearch.com/live-images/home-page-assets/linkedin.svg" /></a>
+            <a href="https://twitter.com/Letsvakilsearch" target="blank"><Image width={23} height={18} src="https://assets.vakilsearch.com/live-images/home-page-assets/twitter.svg" /></a>
+            <a href="https://www.youtube.com/c/vakilsearchonline" target="blank"><Image width={24} height={18} src="https://assets.vakilsearch.com/live-images/home-page-assets/youtube.svg" /></a>
             </div>
           </div>
           {/* <div>
@@ -92,7 +92,7 @@ const FooterWithLinks = () => {
             <p>Terms & conditions</p>
             <p>Customer Satisfaction</p>
           </div> */}
-          <ul className="flex justify-evenly w-[860px] h-[165px] text-[#e0f2ff] pt-[115px]">
+          <ul className="flex items-end justify-evenly w-[860px] h-[165px] text-[#e0f2ff] pt-[115px]">
                 <a href="https://vakilsearch.com/terms-of-service" target="blank"><li>Terms & Conditions</li></a>
                 <a href="https://vakilsearch.com/privacy-policy" target="blank"><li>Privacy Policy</li></a>
                 <a href="https://vakilsearch.com/refund-policy" target="blank"><li>Refund Policy</li></a>
