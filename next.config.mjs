@@ -11,6 +11,8 @@ const nextConfig = {
   },
   env: {
     BASE_URL: isProd ? process.env.BASE_URL_PROD : process.env.BASE_URL_QE,
+    gtm_track: isProd ? process.env.GTM_PROD_ID : process.env.GTM_QE_ID,
+    BLOG_API: process.env.BLOG_API,
   },
   //   assetPrefix: isProd
   //     ? "https://assets.vakilsearch.com"
