@@ -52,12 +52,12 @@ const FooterWithLinks = () => {
             </div>
           ))}
         </div>
-        <div className="flex flex-wrap justify-between mb-8 gap-4 border-t border-[#e9f9ff]">
+        <div className="flex flex-wrap justify-between mb-8 gap-4 max-sm:border-t border-[#e9f9ff]">
         <Image
           width={149}
           height={46}
           src="https://assets.vakilsearch.com/live-images/home-page-assets/zolvit_logo_gray.svg"
-          className="flex flex-row mb-10 md:hidden mt-10"
+          className="flex flex-row my-10 md:hidden"
         />
           {data.linksPart.map((item, index) => (
             <div key={index} className="w-[300px]">
@@ -80,7 +80,7 @@ const FooterWithLinks = () => {
         <p className="mb-4 md:mb-8 pb-3 text-[24px] font-medium text-[#e0f2fe] md:border-b border-[#e9f9ff]">
           Tools
         </p>
-        <div className="text-base md:text-xl mb-[112px] grid gap-5 sm:grid-cols-4 md:grid-cols-2 lg:grid-cols-4">
+        <div className="text-base md:text-xl mb-20 grid gap-5 sm:grid-cols-4 md:grid-cols-2 lg:grid-cols-4">
           {data.tools.map((link) => (
             <a href={link.href} target="blank">
               <p
@@ -148,7 +148,7 @@ const FooterWithLinks = () => {
             </div>
           </div>
           <div className="flex md:items-end">
-            <ul className="flex flex-col md:flex-row text-[#e0f2ff] text-base md:gap-10 gap-4 whitespace-nowrap">
+            <ul className="flex flex-col md:flex-row text-[#e0f2ff] text-base lg:gap-[120px] md:gap-10 gap-4 whitespace-nowrap">
               <Link
                 href="https://vakilsearch.com/terms-of-service"
                 target="blank"
