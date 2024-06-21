@@ -137,22 +137,22 @@
     "expertServices": [
       {
         "title": "Talk to Lawyer",
-        "desc": "Lorem ipsum dolor sit amet consectetur. Blandit sollicitudin.",
+        "desc": "Provide legal advice, draft contracts, handle litigation, and offer legal representation.",
         "img": "https://assets.vakilsearch.com/live-images/ic-ttl.svg"
       },
       {
         "title": "Talk to Chartered accountant",
-        "desc": "Lorem ipsum dolor sit amet consectetur. Blandit sollicitudin.",
+        "desc": "Provide financial auditing, taxation advice, and financial planning services.",
         "img": "https://assets.vakilsearch.com/live-images/ic-calc.svg"
       },
       {
         "title": "Talk to Company secretary",
-        "desc": "Lorem ipsum dolor sit amet consectetur. Blandit sollicitudin.",
+        "desc": "Advisory on corporate governance, regulatory compliance, and secretarial services for businesses and enterprises.",
         "img": "https://assets.vakilsearch.com/live-images/ic-at.svg"
       },
       {
         "title": "Talk to Intellectual Property Lawyer",
-        "desc": "Lorem ipsum dolor sit amet consectetur. Blandit sollicitudin.",
+        "desc": "Assist with trademarks, copyrights, patents, and intellectual property rights enforcement and protection.",
         "img": "https://assets.vakilsearch.com/live-images/ic-court.svg"
       }
     ]
