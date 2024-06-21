@@ -2,7 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 const ServiceSection = ({ data }) => {
   return (
-    <div className="flex flex-row justify-center md:gap-[24px] gap-[18px] max-md:overflow-scroll">
+    <div className="flex flex-col items-center overflow-x-scroll lg:overflow-visible">
+    <div className="flex flex-row md:gap-[24px] gap-[18px]">
       {data?.services?.map((item, index) => (
         <div
           key={index}
@@ -11,7 +12,7 @@ const ServiceSection = ({ data }) => {
           <p className="text-[20px] md:h-[46px] font-bold leading-[23px]">
             {item?.title}
           </p>
-          <p className="text-[16px] text-[#243A4F] font-normal py-[12px] leading-[18px] weight-[400]">
+          <p className="text-[16px] text-[#243A4F] font-normal py-[12px] leading-[18px] font-bold">
             {item?.desc}
           </p>
           <div>
@@ -48,6 +49,7 @@ const ServiceSection = ({ data }) => {
           ))}
         </div>
       ))}
+    </div>
     </div>
   );
 };
