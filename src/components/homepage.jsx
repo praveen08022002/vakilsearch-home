@@ -19,7 +19,7 @@ const Homepage = (props) => {
     <div>
       <Header type="zolvit" />
       <HeroBannerSection data={data} />
-      <div className="flex flex-col mt-[380px] md:gap-[40px] gap-[70px]">
+      <div className="flex flex-col md:mt-[100px] mt-[52px] md:gap-[40px] gap-[70px]">
         <LegalExpertSection data={data} />
         <OurCustomerSection data={data} />
         <OurProductSection data={data} />

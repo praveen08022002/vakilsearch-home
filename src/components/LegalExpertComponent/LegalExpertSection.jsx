@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const LegalExpertSection = ({ data }) => {
   return (
@@ -16,6 +17,7 @@ const LegalExpertSection = ({ data }) => {
         />
         <div className="flex flex-col justify-center gap-[12px]">
           {data?.legalExperts?.expertServices?.map((item, index) => (
+            <Link target="_blank" href={item?.link ? item?.link : "/"}>
             <div
               key={index}
               className="flex flex-row md:opacity-50 items-center gap-[16px] p-[12px] border-[1px] rounded-[4px] cursor-pointer hover:opacity-100 hover:border-[#FFFFFF] hover:shadow-lg"
@@ -48,6 +50,7 @@ const LegalExpertSection = ({ data }) => {
                 </div>
               </div>
             </div>
+            </Link>
           ))}
         </div>
       </div>
