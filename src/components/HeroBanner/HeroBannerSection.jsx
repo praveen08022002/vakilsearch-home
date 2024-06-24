@@ -27,7 +27,7 @@ const HeroBannerSection = ({ data }) => {
           alt="logo-banner"
         />
       </div>
-      <div className="flex flex-row mt-[-189px] z-10 md:justify-center">
+      <div className="flex flex-row mt-[-70px] md:mt-[-189px] z-10 md:justify-center">
         <ServiceSection data={data} />
       </div>
     </div>

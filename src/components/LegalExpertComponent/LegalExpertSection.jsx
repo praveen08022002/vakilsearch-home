@@ -7,7 +7,7 @@ const LegalExpertSection = ({ data }) => {
       <p className="md:max-w-[984px] max-w-[342px] text-center md:text-[40px] text-[18px] md:leading-[46px] leading-[21px] md:weight-[600px] weight-[400px] md:font-bold text-[#022B50]">
         {data?.legalExperts?.content}
       </p>
-      <div className="flex flex-row md:w-full md:max-w-[1333px] items-center justify-between md:mt-[50px] mt-[32px] p-[16px]">
+      <div className="flex flex-row gap-[70px] md:max-w-[1333px] items-center md:mt-[50px] mt-[32px] p-[16px]">
         <Image
           src={data?.legalExperts?.img}
           width={500}

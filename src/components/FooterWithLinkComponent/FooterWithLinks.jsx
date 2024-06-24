@@ -5,7 +5,7 @@ import Link from "next/link";
 const FooterWithLinks = () => {
   return (
     <footer className="bg-[#001d37]" id="footerSection">
-      <div className="mx-auto px-5 pt-24 mb-[20px] max-w-[1358px]">
+      <div className="mx-auto px-5 md:px-[30px] pt-24 mb-[20px] max-w-[1358px]">
         <div className="flex flex-wrap justify-center gap-[34px] mb-[87px]">
           {data.reviews.map((item) => (
             <div
