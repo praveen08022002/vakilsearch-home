@@ -17,7 +17,7 @@ const TestiMonialCard = ({
   return (
     <div
       className="border-[#231F20] md:gap-[20px] relative p-[14px]
-     flex max-md:flex-col gap-[20px] rounded-[16px] "
+     flex max-md:flex-col gap-[20px] rounded-[16px]"
     >
       <div
         className="flex flex-col gap-[20px] bg-[#022B50] border-[#231F20] md:max-w-[792px] max-w-[350px] md:justify-between

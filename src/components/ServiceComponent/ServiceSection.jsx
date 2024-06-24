@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 const ServiceSection = ({ data }) => {
   return (
-    <div className="flex overflow-x-scroll">
+    <div className="flex overflow-x-scroll lg:overflow-x-hidden">
       {data?.services?.map((item, index) => (
         <div
           key={index}
@@ -13,7 +13,7 @@ const ServiceSection = ({ data }) => {
             <p className="text-[20px] md:h-[46px] font-bold leading-[23px]">
               {item?.title}
             </p>
-            <p className="text-[16px] text-[#243A4F] font-normal py-[12px] leading-[18px] weight-[400]">
+            <p className="text-[16px] text-[#243A4F] font-normal py-[12px] leading-[18px]">
               {item?.desc}
             </p>
             <div>
@@ -22,19 +22,19 @@ const ServiceSection = ({ data }) => {
                 width={100}
                 height={84}
                 alt={item?.title}
-                className="mt-[32px]"
+                className="md:py-3 "
               />
             </div>
             </div>
             {item?.serviceList?.map((list, index) => (
-              <Link target="_blank" href={list?.link ? list?.link : "/"}>
+              <Link target="_blank" href={list?.link}>
                 <div
                   key={index}
-                  className="mt-[12px] flex flex-row cursor-pointer items-center justify-between"
+                  className="md:mt-[12px] mt-[8px] flex flex-row cursor-pointer items-center justify-between"
                 >
                   <p
                     key={index}
-                    className="text-[11px] text-[#2E2E2E] text-left font-normal md:py-[12px] leading-[18px] weight-[400]"
+                    className="text-[11px] text-[#2E2E2E] text-left font-normal md:py-[12px] leading-[18px]"
                   >
                     {list?.name}
                   </p>

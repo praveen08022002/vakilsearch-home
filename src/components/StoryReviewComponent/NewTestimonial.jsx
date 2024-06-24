@@ -71,8 +71,8 @@ const NewTestimonial = (props) => {
     prevArrow: <BackArrow />,
   };
   return (
-    <div className="flex flex-col md:max-w-[1300px] max-w-full mx-auto justify-center md:mt-[100px]">
-      <p className="text-[22px] font-semibold md:text-[42px] text-center">
+    <div className="flex flex-col lg:max-w-[1300px] max-w-full mx-auto justify-center md:mt-[100px] md:px-4">
+      <p className="text-[22px] font-semibold md:text-[42px] text-center max-md:px-[20px]">
         {newTestimonial?.title}
       </p>
       {newTestimonial?.desc && (
@@ -84,7 +84,7 @@ const NewTestimonial = (props) => {
         <Slider style={{ display: "flex", alignItems: "center" }} {...settings}>
           {newTestimonial?.list?.map((listItem, listIndex) => {
             return (
-              <div className="max-md:pt-[36px]" key={listIndex}>
+              <div className="max-md:pt-[16px]" key={listIndex}>
                 <TestiMonialCard
                   listItem={listItem}
                   key={listIndex}
