@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 const ServiceSection = ({ data }) => {
   return (
-    <div className="flex overflow-x-scroll">
+    <div className="flex overflow-x-scroll md:overflow-x-hidden">
       {data?.services?.map((item, index) => (
         <div
           key={index}
@@ -22,15 +22,15 @@ const ServiceSection = ({ data }) => {
                 width={100}
                 height={84}
                 alt={item?.title}
-                className="mt-[32px]"
+                className="md:py-3 "
               />
             </div>
             </div>
             {item?.serviceList?.map((list, index) => (
-              <Link target="_blank" href={list?.link ? list?.link : "/"}>
+              <Link target="_blank" href={list?.link}>
                 <div
                   key={index}
-                  className="mt-[12px] flex flex-row cursor-pointer items-center justify-between"
+                  className="md:mt-[12px] mt-[8px] flex flex-row cursor-pointer items-center justify-between"
                 >
                   <p
                     key={index}

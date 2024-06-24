@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const SecurityResultSection = ({ data }) => {
   return (
-    <div className="flex flex-col relative md:w-full md:max-w-[1233px] md:mx-auto max-md:m-[16px] max-md:mt-[50px] items-center justify-center rounded-[20px] py-[24px] bg-gradient-to-r from-[#FDF4C8] to-[#FFFDF27D] border-[1px] border-[#FFFDF27D] shadow-lg">
-      <div className="flex flex-col items-center justify-center md:gap-[24px]">
+    <div className="flex flex-col relative md:max-w-[1200px] md:mx-auto max-md:m-[16px] max-md:mt-[50px] items-center justify-center rounded-[20px] py-[24px] bg-gradient-to-r from-[#FDF4C8] to-[#FFFDF27D] border-[1px] border-[#FFFDF27D] shadow-lg">
+      <div className="flex flex-col items-center justify-center md:gap-[24px]"> 
         <p className="md:text-[35px] text-[24px] max-md:text-center max-md:mt-[52px] md:weight-[700px] font-medium md:leading-[41px]">
           {data?.securitySection?.title}
         </p>

@@ -5,7 +5,7 @@ import useIsMobile from "@/utils/useIsMobile";
 const OurProductSection = ({ data }) => {
     const isMobile = useIsMobile();
   return (
-    <div className="flex flex-col py-[50px] w-full md:max-w-[1330px] md:mt-[40px] md:mx-auto md:w-full items-center justify-center">
+    <div className="flex flex-col py-[50px] w-full md:max-w-[1200px] md:mt-[40px] md:mx-auto md:w-full items-center justify-center">
       <p className="md:text-[35px] text-[24px] weight-[700px] font-medium leading-[41px]">
         {data?.ourProducts?.title}
       </p>

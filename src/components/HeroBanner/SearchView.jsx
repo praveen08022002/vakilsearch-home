@@ -176,7 +176,7 @@ const AutoSuggest = (props) => {
       window.removeEventListener("mousedown", handleClickOutside, false);
   }, [handleClickOutside]);
   return (
-    <div className="w-full">
+    <div className="w-full z-50">
       <div
         ref={autoSearchRef}
         className={`w-full md:max-w-[949px] ${
