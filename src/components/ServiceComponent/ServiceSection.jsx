@@ -53,7 +53,6 @@ const ServiceSection = ({ data }) => {
         </div>
       ))}
     </div>
-    </div>
   );
 };
 export default ServiceSection;
