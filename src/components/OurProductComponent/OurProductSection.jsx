@@ -6,13 +6,13 @@ const OurProductSection = ({ data }) => {
     const isMobile = useIsMobile();
   return (
     <div className="flex flex-col py-[50px] w-full md:max-w-[1200px] md:mt-[40px] md:mx-auto md:w-full items-center justify-center">
-      <p className="md:text-[35px] text-[24px] weight-[700px] font-medium leading-[41px]">
+      <p className="md:text-[35px] text-[24px] font-bold leading-[41px] text-[#022B50]">
         {data?.ourProducts?.title}
       </p>
-      <p className="md:text-[24px] text-[16px] text-center max-md:w-[303px] weight-[400px] text-[#284B6A] md:leading-[28px] py-[12px]">
+      <p className="md:text-[24px] text-[16px] text-center max-md:w-[303px] text-[#284B6A] md:leading-[28px] py-[12px]">
         {data?.ourProducts?.desc}
       </p>
-      <div className="flex md:flex-row flex-col md:gap-20 gap-[20px] md:mt-[71px] mt-[30px] max-md:mx-[16px]">
+      <div className="flex lg:flex-row flex-col md:gap-20 gap-[20px] md:mt-[71px] mt-[30px] max-lg:mx-[16px]">
         {data?.ourProducts?.productList?.map((item, index) => (
           <div key={index}
             className={`flex flex-col ${
@@ -46,7 +46,7 @@ const OurProductSection = ({ data }) => {
                 <p
                   className={`${
                     item?.isBlueBg ? "text-[#ffffff]" : "text-[#022B50]"
-                  } md:text-[16px] text-[14px] font-normal leading-[19px] weight-[400]`}
+                  } md:text-[16px] text-[14px] font-normal leading-[19px] `}
                 >
                   {parser(detail?.content)}
                 </p>
@@ -54,8 +54,8 @@ const OurProductSection = ({ data }) => {
             ))}
             {item?.isExplore ? (
               <div className="flex flex-row max-w-[161px] py-[16px] px-[22px] items-center justify-between bg-[#FED130] rounded-[30px]" onClick={() => item?.link ? window.location.href = item?.link : ""}>
-                <p className="text-[13px] font-normal weight-[500px] leading-[15px]">
-                  Download now
+                <p className="text-[13px] font-normal  leading-[15px]">
+                  Download Now
                 </p>
                 <Image
                   src={
