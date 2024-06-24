@@ -7,7 +7,7 @@ const StartBusinessSection = ({ data }) => {
             <div className="flex flex-col md:gap-[25px] max-lg:max-w-[600px]">
             <p className="w-full md:max-w-[806px] md:text-[36px] text-[24px] text-left font-bold text-[#ffffff]">{data?.startBusinessSection?.title}</p>
             <p className="w-full md:max-w-[679px] md:text-[18px] text-[14px] text-left font-normal md:leading-[26px] text-[#ffffff] max-md:pt-[10px]">{data?.startBusinessSection?.desc}</p>
-            <p className="max-w-[200px] max-md:max-w-[150px] md:text-xl text-[14px] md:py-4 p-2  bg-[#FCD209] max-md:my-[30px] rounded text-center font-medium cursor-pointer">{data?.startBusinessSection?.btnCta}</p>
+            <p onClick={() => window.location.href = data?.startBusinessSection?.link} className="max-w-[200px] max-md:max-w-[150px] md:text-xl text-[14px] md:py-4 p-2  bg-[#FCD209] max-md:my-[30px] rounded text-center font-medium cursor-pointer">{data?.startBusinessSection?.btnCta}</p>
             </div>
             <div className="absolute md:h-[320px] h-[132px] md:bottom-[-2%] bottom-[-1%] right-0">
             <Image src={data?.startBusinessSection?.img} width={200} height={140} alt={"icon"}

@@ -1,7 +1,9 @@
 import Image from "next/image";
 import parser from "html-react-parser";
+import useIsMobile from "@/utils/useIsMobile";
 
 const OurProductSection = ({ data }) => {
+    const isMobile = useIsMobile();
   return (
     <div className="flex flex-col py-[50px] w-full md:max-w-[1330px] md:mt-[40px] md:mx-auto md:w-full items-center justify-center">
       <p className="md:text-[35px] text-[24px] weight-[700px] font-medium leading-[41px]">
@@ -51,7 +53,7 @@ const OurProductSection = ({ data }) => {
               </div>
             ))}
             {item?.isExplore ? (
-              <div className="flex flex-row max-w-[161px] py-[16px] px-[22px] items-center justify-between bg-[#FED130] rounded-[30px]">
+              <div className="flex flex-row max-w-[161px] py-[16px] px-[22px] items-center justify-between bg-[#FED130] rounded-[30px]" onClick={() => item?.link ? window.location.href = item?.link : ""}>
                 <p className="text-[13px] font-normal weight-[500px] leading-[15px]">
                   Download now
                 </p>
@@ -70,8 +72,8 @@ const OurProductSection = ({ data }) => {
             <div className="pt-[40px] flex absoluteitems-center justify-center">
               <Image
                 src={item?.demoPic}
-                width={item?.webWidth}
-                height={item?.webHeight}
+                width={isMobile ? item?.mobileWidth :item?.webWidth}
+                height={isMobile ? item?.mobileHeight : item?.webHeight}
                 alt={"demo-banner"}
               />
             </div>
