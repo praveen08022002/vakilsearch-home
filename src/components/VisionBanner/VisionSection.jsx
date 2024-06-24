@@ -1,6 +1,8 @@
 import Image from "next/image";
+import useIsMobile from "@/utils/useIsMobile";
 
 const VisionSection = ({ data }) => {
+  const isMobile = useIsMobile();
   return (
     <div className="flex flex-col items-center justify-center w-full mx-auto md:gap-[48px] gap-[24px] md:mt-[100px] md:max-w-[1330px] px-6 lg:px-0">
       <p className="text-2xl md:text-[40px] font-bold text-center max-sm:max-w-[308px]">
@@ -16,8 +18,8 @@ const VisionSection = ({ data }) => {
           <div key={index}>
             <Image
               src={item?.img}
-              width={item?.webWidth}
-              height={item?.webHeight}
+              width={isMobile ? item?.mobileWidth : item?.webWidth}
+              height={isMobile ?  item?.mobileHeight : item?.webHeight}
               alt={"vision icon"}
             />
           </div>

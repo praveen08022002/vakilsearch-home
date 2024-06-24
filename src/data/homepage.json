@@ -1,5 +1,5 @@
 {
-  "Title": "India's Top Rated Legal services platform",
+  "title": "India's Top Rated Legal Services Platform",
   "subTitle": "Connecting you with experts to simplify your legal, tax & compliance.",
   "rating": "4.4/5",
   "reviews": "(13k+ Reviews)",
@@ -163,22 +163,26 @@
       {
         "title": "Talk to Lawyer",
         "desc": "Provide legal advice, draft contracts, handle litigation, and offer legal representation.",
-        "img": "https://assets.vakilsearch.com/live-images/ic-ttl.svg"
+        "img": "https://assets.vakilsearch.com/live-images/ic-ttl.svg",
+        "link": "https://vakilsearch.com/talk-to-a-lawyer"
       },
       {
         "title": "Talk to Chartered accountant",
         "desc": "Provide financial auditing, taxation advice, and financial planning services.",
-        "img": "https://assets.vakilsearch.com/live-images/ic-calc.svg"
+        "img": "https://assets.vakilsearch.com/live-images/ic-calc.svg",
+        "link": "https://vakilsearch.com/online-chartered-accountant-services-india"
       },
       {
         "title": "Talk to Company secretary",
         "desc": "Advisory on corporate governance, regulatory compliance, and secretarial services for businesses and enterprises.",
-        "img": "https://assets.vakilsearch.com/live-images/ic-at.svg"
+        "img": "https://assets.vakilsearch.com/live-images/ic-at.svg",
+        "link": "https://vakilsearch.com/company-secretary-services-near-me"
       },
       {
         "title": "Talk to Intellectual Property Lawyer",
         "desc": "Assist with trademarks, copyrights, patents, and intellectual property rights enforcement and protection.",
-        "img": "https://assets.vakilsearch.com/live-images/ic-court.svg"
+        "img": "https://assets.vakilsearch.com/live-images/ic-court.svg",
+        "link": "https://vakilsearch.com/intellectual-property-lawyer-services-in-india"
       }
     ]
   },
@@ -262,6 +266,7 @@
         "bgColor": "#022B50",
         "isBlueBg": true,
         "isExplore": true,
+        "link": "https://app.vakilsearch.com/ourservice",
         "demoPic": "https://assets.vakilsearch.com/live-images/zolvit-demo-banner.png",
         "webWidth": 473,
         "webHeight": 223,
@@ -490,7 +495,8 @@
     "title": "Starting a business and confused where to begin?",
     "desc": "At Vakilsearch, we take care of Accounting, Business, Compliance, and handle end-to-end solutions.",
     "btnCta": "Get Started",
-    "img": "https://assets.vakilsearch.com/live-images/ic-women.svg"
+    "img": "https://assets.vakilsearch.com/live-images/ic-women.svg",
+    "link": "https://vakilsearch.com/online-company-registration"
   },
   "visionSection": {
     "title": "Validated Vision, Exceptional Results",
