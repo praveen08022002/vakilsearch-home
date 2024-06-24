@@ -2,6 +2,7 @@ import Image from "next/image";
 import RatingAndReview from "./RatingAndReview";
 import SearchView from "./SearchView";
 import ServiceSection from "../ServiceComponent/ServiceSection";
+import Link from "next/link";
 const HeroBannerSection = ({ data }) => {
   return (
     <div className="flex flex-col">
@@ -17,6 +18,13 @@ const HeroBannerSection = ({ data }) => {
           </p>
         </div>
         <SearchView data={data} />
+        <div className="flex flex-wrap justify-center items-center gap-2 md:gap-4 z-10">
+          {data?.suggesstions?.map((item, index) => (
+            <Link target="_blank" href={item.link}>
+              <p className="text-[#FFFFFF] text-xs md:text-base bg-[#22384D] border-[#5E6E7C] border-[1px] rounded-xl px-4 py-1" key={index}>{item.name}</p>
+            </Link>
+          ))}
+        </div>
         <Image
           className="absolute left-0 bottom-0 md:w-[443px] md:h-[449px] w-[223px] h-[223px]"
           src={
@@ -27,7 +35,7 @@ const HeroBannerSection = ({ data }) => {
           alt="logo-banner"
         />
       </div>
-      <div className="flex flex-row mt-[-70px] md:mt-[-189px] z-10 md:justify-center">
+      <div className="flex flex-row mt-[-40px] md:mt-[-189px] z-10 md:justify-center">
         <ServiceSection data={data} />
       </div>
     </div>

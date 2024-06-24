@@ -5,18 +5,22 @@
   "reviews": "(13k+ Reviews)",
   "ratingStarImg": "https://assets.vakilsearch.com/live-images/ic-rating-star.svg",
   "userGrpImg": "https://assets.vakilsearch.com/live-images/ic-user-grp.png",
-  "suggessions": [
+  "suggesstions": [
     {
-      "name": "GST Registration"
+      "name": "GST Registration",
+      "link": "https://vakilsearch.com/gst/registration"
     },
     {
-      "name": "Company Registration"
+      "name": "Company Registration",
+      "link": "https://vakilsearch.com/online-company-registration"
     },
     {
-      "name": "Accounting & Business Compliance"
+      "name": "Accounting & Business Compliance",
+      "link": "https://vakilsearch.com/online-accounting-compliance-service"
     },
     {
-      "name": "e-FIR"
+      "name": "e-FIR",
+      "link": "https://vakilsearch.com/file-efir-police-complaint-ncr"
     }
   ],
   "services": [
