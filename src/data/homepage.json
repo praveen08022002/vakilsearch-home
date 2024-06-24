@@ -356,17 +356,17 @@
     ]
   },
   "newTestimonial": {
-    "title": "Trusted by Startups & Investors",
+    "title": "Success stories & Reviews",
     "desc": "Access to all your service in both web and mobile",
     "list": [
       {
         "image": "https://assets.vakilsearch.com/our-customer.svg",
-        "content": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!",
-        "name": "Prajwal Raj",
-        "role": "Paramvah Constructions Private LimitedI",
+        "content": "I would like to thank your company personnel at the customer services division for their excellent support. My Relationship Manager, Esther Monicka, took care of all my queries in a jiffy.",
+        "name": "Yogesh Arora",
+        "role": "Smartyields Agro Pvt Ltd | Incorporation",
         "desc": "Idea to Investment in <b>4 Months</b>",
         "investors": "Investor who attended the meet",
-        "service": "GST Filing",
+        "service": "GST Filing",  
         "points": [
           {
             "heading": "Consultation",
@@ -387,9 +387,9 @@
       },
       {
         "image": "https://assets.vakilsearch.com/guru.svg",
-        "content": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!.",
-        "name": "Guru Prasad",
-        "role": "G21 Constructions ",
+        "content": "Awesome service by Vakilsearch (Prince Franklin) a kind and correct response from him.",
+        "name": "GokulPrasad Thangavel",
+        "role": "Upcelerators Technologies Pvt Ltd | Incorporation",
         "desc": "From Idea to Investment in <b>4 Months</b>",
         "investors": "Investor who attended the meet",
         "service": "Trademark Registration",
@@ -413,9 +413,9 @@
       },
       {
         "image": "https://assets.vakilsearch.com/prathap.svg",
-        "content": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!",
-        "name": "Prathap P",
-        "role": "Mantra Cafe ",
+        "content": "Our experience with VS has been owesome and their execution method is Superb and just owesome. Would like to continue association with VS for a longer tenure.",
+        "name": "Asif Lathif",
+        "role": "Unix Conglomerate Pvt Ltd | Accounting",
         "desc": "From Idea to Investment in <b>6 Months</b> ",
         "investors": "Investor who attended the meet",
         "service": "Copyright Registration",
@@ -439,38 +439,12 @@
       },
       {
         "image": "https://assets.vakilsearch.com/prathap.svg",
-        "content": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!",
-        "name": "Dhana",
-        "role": "Mantra Cafe ",
+        "content": "We trust and appreciate excellent customer service of Vakilsearch and for all our company requirements, We consult only them and recommend Vakilsearch for stress free and hassle free legal document works. ThanQ Vakilsearch.",
+        "name": "Sudha Venkat",
+        "role": "Dova Private Limited | Food License",
         "desc": "From Idea to Investment in <b>6 Months</b> ",
         "investors": "Investor who attended the meet",
         "service": "e-FIR",
-        "points": [
-          {
-            "heading": "Consultation",
-            "date": "21-01-2024",
-            "desc": "Preparation & Analysis"
-          },
-          {
-            "heading": "Consultation",
-            "date": "10-03-2024",
-            "desc": "Pitch Deck & Financial Modeling"
-          },
-          {
-            "heading": "Consultation",
-            "date": "04-06-2024",
-            "desc": "Pitched & Secured Funding "
-          }
-        ]
-      },
-      {
-        "image": "https://assets.vakilsearch.com/prathap.svg",
-        "content": "Vakilsearch delivered exceptional service with professionalism, expertise, and proactive communication. Highly recommend their outstanding work. Thank you!",
-        "name": "Praveen P",
-        "role": "Mantra Cafe ",
-        "desc": "From Idea to Investment in <b>6 Months</b> ",
-        "investors": "Investor who attended the meet",
-        "service": "GST Registration",
         "points": [
           {
             "heading": "Consultation",

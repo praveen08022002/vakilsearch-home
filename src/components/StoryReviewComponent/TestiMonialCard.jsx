@@ -15,7 +15,7 @@ const TestiMonialCard = ({
   return (
     <div
       className="border-[#231F20] md:gap-[20px] relative p-[14px]
-     flex max-md:flex-col gap-[20px] rounded-[16px] "
+     flex max-md:flex-col gap-[20px] rounded-[16px]"
     >
       <div
         className="flex flex-col gap-[20px] bg-[#022B50] border-[#231F20] md:max-w-[792px] max-w-[350px] md:justify-between
@@ -35,7 +35,7 @@ const TestiMonialCard = ({
           />
         </div>
       </div>
-      <div className=" w-full max-w-[350px] flex flex-row items-center md:bg-[#E6EAEE] md:border-[1px] md:rounded">
+      <div className=" w-full max-w-[350px] flex flex-row items-center lg:bg-[#E6EAEE] lg:border-[1px] lg:rounded">
         <Image
           src={listItem?.image}
           alt="image"

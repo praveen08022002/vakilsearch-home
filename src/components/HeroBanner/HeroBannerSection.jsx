@@ -8,7 +8,7 @@ const HeroBannerSection = ({ data }) => {
       <div className="flex flex-col bg-[#022B50] relative items-center md:pt-[70px] pt-[40px] md:pb-[280px] max-md:h-[95vh] gap-[18px]">
         <RatingAndReview data={data} />
         <div className="md:mb-[64px] mb-[32px] flex flex-col items-center justify-center">
-          <p className="text-white md:text-[60px] text-[32px] font-bold md:leading-[72px] leading-[37px] max-md:text-center">
+          <p className="text-white md:text-[60px] text-[32px] font-bold md:leading-[72px] leading-[37px] max-lg:text-center">
             India&apos;s <span className="text-[#FFC24F]">Top Rated </span>Legal
             Services Platform
           </p>
