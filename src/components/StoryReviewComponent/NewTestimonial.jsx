@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import TestiMonialCard from "./TestiMonialCard";
 import Image from "next/image";
+import useIsMobile from "@/utils/useIsMobile";
 
 const BackArrow = (props) => {
   const { className, onClick } = props;
@@ -46,6 +47,7 @@ const NewTestimonial = (props) => {
   const [viewModalOpen, setViewModalOpen] = useState(false);
   const [customerData, setCustomerData] = useState("");
   const length = newTestimonial?.list?.length;
+  const isMobile = useIsMobile();
   useEffect(() => {
     const timer = setTimeout(() => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % length); // Loop back to the first div
@@ -74,7 +76,7 @@ const NewTestimonial = (props) => {
         {newTestimonial?.title}
       </p>
       {newTestimonial?.desc && (
-          <p className="text-[16px] w-full font-light md:text-[24px] text-center text-[#606162] max-md:px-[20px]">
+        <p className="text-[16px] w-full font-light md:text-[24px] text-center text-[#606162]">
           {newTestimonial?.desc}
         </p>
       )}
@@ -88,6 +90,8 @@ const NewTestimonial = (props) => {
                   key={listIndex}
                   setCustomerData={setCustomerData}
                   customerData={customerData}
+                  activeIndex={activeIndex}
+                  listIndex={listIndex}
                   viewModalOpen={viewModalOpen}
                   setViewModalOpen={setViewModalOpen}
                 />
@@ -95,22 +99,30 @@ const NewTestimonial = (props) => {
             );
           })}
         </Slider>
-        <div className="flex gap-[4px] w-full md:mx-auto md:max-w-[1090px] max-md:overflow-auto">
-          {Array.from({ length: length }, (_, index) => (
-            <div
-              key={index}
-              className={`w-full relative transition-all max-md:px-4 bg-[#CACED1]
-                 h-1 border-b-[1px] border-[#CACED1] rounded-[12px] ${
-                   activeIndex === index
-                     ? `before:animate-timer before:w-full before:h-1 before:absolute 
-                     before:top-0 before:left-0 before:bg-[#2b3641] before:rounded-[12px]`
-                     : ""
-                 }`}
-            >
-                {/* <p className={`text-[16px] font-bold md:leading-[18px] py-[14px] ${activeIndex === index ? "text-[#2b3641]" : "text-[#8F9397]"}`}>{newTestimonial?.list[index].service}</p> */}
-            </div>
-          ))}
-        </div>
+        {!isMobile && (
+          <div className="flex gap-[4px]  w-full md:mx-auto md:max-w-[1090px] max-md:overflow-auto">
+            {Array.from({ length: length }, (_, index) => (
+              <div
+                key={index}
+                className={`w-full relative transition-all max-md:px-4 bg-[#CACED1]
+         h-1 border-b-[1px] border-[#CACED1] rounded-[12px] ${
+           activeIndex === index
+             ? `before:animate-timer before:w-full before:h-1 before:absolute 
+             before:top-0 before:left-0 before:bg-[#2b3641] before:rounded-[12px]`
+             : ""
+         }`}
+              >
+                <p
+                  className={`text-[16px] weight-[700px] md:leading-[18px] py-[14px] ${
+                    activeIndex === index ? "text-[#2b3641]" : "text-[#8F9397]"
+                  }`}
+                >
+                  {newTestimonial?.list[index].service}
+                </p>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
